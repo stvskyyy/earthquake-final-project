@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Large/generated files
+models/*.pkl
+outputs/figures/*.png
+outputs/maps/*.html
+outputs/tables/*.csv
+
+# Optional: keep raw data private if needed
+# data/raw/*
+# !data/raw/.gitkeep
