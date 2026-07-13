@@ -1,0 +1,739 @@
+PHASE 1 DATASET INSPECTION REPORT
+================================================================================
+
+Raw data folder: C:\Users\Admin\OneDrive\Desktop\Visual Studio Code Projects\earthquake-final-project\data\raw
+Total CSV files loaded: 13
+
+DATASET: KODA_Datasets - Agusan Soil Data
+File name: KODA_Datasets - Agusan Soil Data.csv
+Shape: (71, 12)
+
+Columns:
+- descrip
+- mapdate
+- mapscale
+- province
+- category
+- source
+- maptype
+- class
+- shape_leng
+- shape_area
+- Unnamed: 10
+- Source: https://sites.google.com/view/map-portal/downloadable-maps/soil?authuser=0
+
+Data Types:
+descrip                                                                                   str
+mapdate                                                                                 int64
+mapscale                                                                                int64
+province                                                                                  str
+category                                                                                  str
+source                                                                                    str
+maptype                                                                                   str
+class                                                                                   int64
+shape_leng                                                                              int64
+shape_area                                                                              int64
+Unnamed: 10                                                                           float64
+Source: https://sites.google.com/view/map-portal/downloadable-maps/soil?authuser=0    float64
+
+Missing Values:
+descrip                                                                                0
+mapdate                                                                                0
+mapscale                                                                               0
+province                                                                               0
+category                                                                               0
+source                                                                                 0
+maptype                                                                                0
+class                                                                                  0
+shape_leng                                                                             0
+shape_area                                                                             0
+Unnamed: 10                                                                           71
+Source: https://sites.google.com/view/map-portal/downloadable-maps/soil?authuser=0    71
+
+Duplicate Rows:
+49
+
+--------------------------------------------------------------------------------
+
+DATASET: KODA_Datasets - Bukidnon Soil Data
+File name: KODA_Datasets - Bukidnon Soil Data.csv
+Shape: (44, 12)
+
+Columns:
+- descrip
+- mapdate
+- mapscale
+- province
+- category
+- source
+- maptype
+- class
+- shape_leng
+- shape_area
+- Unnamed: 10
+- Source: https://sites.google.com/view/map-portal/downloadable-maps/soil?authuser=0
+
+Data Types:
+descrip                                                                                   str
+mapdate                                                                                 int64
+mapscale                                                                                int64
+province                                                                                  str
+category                                                                                  str
+source                                                                                    str
+maptype                                                                                   str
+class                                                                                   int64
+shape_leng                                                                              int64
+shape_area                                                                              int64
+Unnamed: 10                                                                           float64
+Source: https://sites.google.com/view/map-portal/downloadable-maps/soil?authuser=0    float64
+
+Missing Values:
+descrip                                                                                0
+mapdate                                                                                0
+mapscale                                                                               0
+province                                                                               0
+category                                                                               0
+source                                                                                 0
+maptype                                                                                0
+class                                                                                  0
+shape_leng                                                                             0
+shape_area                                                                             0
+Unnamed: 10                                                                           44
+Source: https://sites.google.com/view/map-portal/downloadable-maps/soil?authuser=0    44
+
+Duplicate Rows:
+30
+
+--------------------------------------------------------------------------------
+
+DATASET: KODA_Datasets - Cotabato Soil Data
+File name: KODA_Datasets - Cotabato Soil Data.csv
+Shape: (76, 12)
+
+Columns:
+- descrip
+- mapdate
+- mapscale
+- province
+- category
+- source
+- maptype
+- class
+- shape_leng
+- shape_area
+- Unnamed: 10
+- Source: https://sites.google.com/view/map-portal/downloadable-maps/soil?authuser=0
+
+Data Types:
+descrip                                                                                   str
+mapdate                                                                                 int64
+mapscale                                                                                int64
+province                                                                                  str
+category                                                                                  str
+source                                                                                    str
+maptype                                                                                   str
+class                                                                                     str
+shape_leng                                                                              int64
+shape_area                                                                              int64
+Unnamed: 10                                                                           float64
+Source: https://sites.google.com/view/map-portal/downloadable-maps/soil?authuser=0    float64
+
+Missing Values:
+descrip                                                                                0
+mapdate                                                                                0
+mapscale                                                                               0
+province                                                                               0
+category                                                                               0
+source                                                                                 0
+maptype                                                                                0
+class                                                                                  0
+shape_leng                                                                             0
+shape_area                                                                             0
+Unnamed: 10                                                                           76
+Source: https://sites.google.com/view/map-portal/downloadable-maps/soil?authuser=0    76
+
+Duplicate Rows:
+35
+
+--------------------------------------------------------------------------------
+
+DATASET: KODA_Datasets - Davao Soil Data
+File name: KODA_Datasets - Davao Soil Data.csv
+Shape: (53, 16)
+
+Columns:
+- descrip
+- mapdate
+- mapscale
+- province
+- category
+- source
+- maptype
+- class
+- shape_leng
+- shape_area
+- oid_
+- class_1
+- category_1
+- maptype_1
+- Unnamed: 14
+- Source: https://sites.google.com/view/map-portal/downloadable-maps/soil?authuser=0
+
+Data Types:
+descrip                                                                                   str
+mapdate                                                                                 int64
+mapscale                                                                                int64
+province                                                                                  str
+category                                                                                  str
+source                                                                                    str
+maptype                                                                                   str
+class                                                                                   int64
+shape_leng                                                                              int64
+shape_area                                                                              int64
+oid_                                                                                    int64
+class_1                                                                                 int64
+category_1                                                                                str
+maptype_1                                                                                 str
+Unnamed: 14                                                                           float64
+Source: https://sites.google.com/view/map-portal/downloadable-maps/soil?authuser=0    float64
+
+Missing Values:
+descrip                                                                                0
+mapdate                                                                                0
+mapscale                                                                               0
+province                                                                               0
+category                                                                               0
+source                                                                                 0
+maptype                                                                                0
+class                                                                                  0
+shape_leng                                                                             0
+shape_area                                                                             0
+oid_                                                                                   0
+class_1                                                                                0
+category_1                                                                             0
+maptype_1                                                                              0
+Unnamed: 14                                                                           53
+Source: https://sites.google.com/view/map-portal/downloadable-maps/soil?authuser=0    53
+
+Duplicate Rows:
+39
+
+--------------------------------------------------------------------------------
+
+DATASET: KODA_Datasets - Misamis Occidental Soil Data
+File name: KODA_Datasets - Misamis Occidental Soil Data.csv
+Shape: (40, 12)
+
+Columns:
+- descrip
+- mapdate
+- mapscale
+- province
+- category
+- source
+- maptype
+- class
+- shape_leng
+- shape_area
+- Unnamed: 10
+- Source: https://sites.google.com/view/map-portal/downloadable-maps/soil?authuser=0
+
+Data Types:
+descrip                                                                                   str
+mapdate                                                                                 int64
+mapscale                                                                                int64
+province                                                                                  str
+category                                                                                  str
+source                                                                                    str
+maptype                                                                                   str
+class                                                                                   int64
+shape_leng                                                                              int64
+shape_area                                                                              int64
+Unnamed: 10                                                                           float64
+Source: https://sites.google.com/view/map-portal/downloadable-maps/soil?authuser=0    float64
+
+Missing Values:
+descrip                                                                                0
+mapdate                                                                                0
+mapscale                                                                               0
+province                                                                               0
+category                                                                               0
+source                                                                                 0
+maptype                                                                                0
+class                                                                                  0
+shape_leng                                                                             0
+shape_area                                                                             0
+Unnamed: 10                                                                           40
+Source: https://sites.google.com/view/map-portal/downloadable-maps/soil?authuser=0    40
+
+Duplicate Rows:
+22
+
+--------------------------------------------------------------------------------
+
+DATASET: KODA_Datasets - Misamis Oriental Soil Data
+File name: KODA_Datasets - Misamis Oriental Soil Data.csv
+Shape: (67, 12)
+
+Columns:
+- descrip
+- mapdate
+- mapscale
+- province
+- category
+- source
+- maptype
+- class
+- shape_leng
+- shape_area
+- Unnamed: 10
+- Source: https://sites.google.com/view/map-portal/downloadable-maps/soil?authuser=0
+
+Data Types:
+descrip                                                                                   str
+mapdate                                                                                   str
+mapscale                                                                                int64
+province                                                                                  str
+category                                                                                  str
+source                                                                                    str
+maptype                                                                                   str
+class                                                                                     str
+shape_leng                                                                              int64
+shape_area                                                                              int64
+Unnamed: 10                                                                           float64
+Source: https://sites.google.com/view/map-portal/downloadable-maps/soil?authuser=0    float64
+
+Missing Values:
+descrip                                                                                0
+mapdate                                                                                0
+mapscale                                                                               0
+province                                                                               0
+category                                                                               0
+source                                                                                 0
+maptype                                                                                0
+class                                                                                  0
+shape_leng                                                                             0
+shape_area                                                                             0
+Unnamed: 10                                                                           67
+Source: https://sites.google.com/view/map-portal/downloadable-maps/soil?authuser=0    67
+
+Duplicate Rows:
+47
+
+--------------------------------------------------------------------------------
+
+DATASET: KODA_Datasets - Philippine Rainfall
+File name: KODA_Datasets - Philippine Rainfall.csv
+Shape: (160524, 17)
+
+Columns:
+- date
+- adm_level
+- adm_id
+- PCODE
+- n_pixels
+- rfh
+- rfh_avg
+- r1h
+- r1h_avg
+- r3h
+- r3h_avg
+- rfq
+- r1q
+- r3q
+- version
+- Unnamed: 15
+- Source: https://data.humdata.org/dataset/phl-rainfall-subnational
+
+Data Types:
+date                                                                     str
+adm_level                                                              int64
+adm_id                                                                 int64
+PCODE                                                                    str
+n_pixels                                                               int64
+rfh                                                                  float64
+rfh_avg                                                              float64
+r1h                                                                  float64
+r1h_avg                                                              float64
+r3h                                                                  float64
+r3h_avg                                                              float64
+rfq                                                                  float64
+r1q                                                                  float64
+r3q                                                                  float64
+version                                                                  str
+Unnamed: 15                                                          float64
+Source: https://data.humdata.org/dataset/phl-rainfall-subnational    float64
+
+Missing Values:
+date                                                                      0
+adm_level                                                                 0
+adm_id                                                                    0
+PCODE                                                                     0
+n_pixels                                                                  0
+rfh                                                                       0
+rfh_avg                                                                   0
+r1h                                                                     196
+r1h_avg                                                                 196
+r3h                                                                     784
+r3h_avg                                                                 784
+rfq                                                                       0
+r1q                                                                     196
+r3q                                                                     784
+version                                                                   0
+Unnamed: 15                                                          160524
+Source: https://data.humdata.org/dataset/phl-rainfall-subnational    160524
+
+Duplicate Rows:
+0
+
+--------------------------------------------------------------------------------
+
+DATASET: KODA_Datasets - Philippine_Earthquakes_USGS
+File name: KODA_Datasets - Philippine_Earthquakes_USGS.csv
+Shape: (27224, 29)
+
+Columns:
+- id
+- mag
+- place
+- time
+- updated
+- tz
+- url
+- felt
+- cdi
+- mmi
+- alert
+- status
+- tsunami
+- sig
+- net
+- code
+- ids
+- sources
+- types
+- nst
+- dmin
+- rms
+- gap
+- magType
+- type_property
+- title
+- longitude
+- latitude
+- depth
+
+Data Types:
+id                   str
+mag              float64
+place                str
+time                 str
+updated              str
+tz               float64
+url                  str
+felt             float64
+cdi              float64
+mmi              float64
+alert                str
+status               str
+tsunami            int64
+sig                int64
+net                  str
+code                 str
+ids                  str
+sources              str
+types                str
+nst              float64
+dmin             float64
+rms              float64
+gap              float64
+magType              str
+type_property        str
+title                str
+longitude        float64
+latitude         float64
+depth            float64
+
+Missing Values:
+id                   0
+mag               1186
+place                0
+time                 0
+updated              0
+tz               27224
+url                  0
+felt             25073
+cdi              25073
+mmi              26058
+alert            26862
+status               0
+tsunami              0
+sig                  0
+net                  0
+code                 0
+ids                  0
+sources              0
+types                0
+nst              15628
+dmin             17604
+rms               2552
+gap              11476
+magType           1631
+type_property        0
+title                0
+longitude            0
+latitude             0
+depth                2
+
+Duplicate Rows:
+0
+
+--------------------------------------------------------------------------------
+
+DATASET: KODA_Datasets - PhilSoilSeries
+File name: KODA_Datasets - PhilSoilSeries.csv
+Shape: (539, 6)
+
+Columns:
+- SOILDESC,C,60
+- AEZ,C,10
+- SoilSeries,C,30
+- Hectares,N,19,11
+- Unnamed: 4
+- Source: https://www.bswm.da.gov.ph/bswm-maps/?
+
+Data Types:
+SOILDESC,C,60                                         str
+AEZ,C,10                                              str
+SoilSeries,C,30                                       str
+Hectares,N,19,11                                  float64
+Unnamed: 4                                        float64
+Source: https://www.bswm.da.gov.ph/bswm-maps/?        str
+
+Missing Values:
+SOILDESC,C,60                                       0
+AEZ,C,10                                            2
+SoilSeries,C,30                                     1
+Hectares,N,19,11                                    0
+Unnamed: 4                                        539
+Source: https://www.bswm.da.gov.ph/bswm-maps/?    538
+
+Duplicate Rows:
+0
+
+--------------------------------------------------------------------------------
+
+DATASET: KODA_Datasets - Surigao Del Norte Soil Data
+File name: KODA_Datasets - Surigao Del Norte Soil Data.csv
+Shape: (62, 12)
+
+Columns:
+- descrip
+- mapdate
+- mapscale
+- province
+- category
+- source
+- maptype
+- class
+- shape_leng
+- shape_area
+- Unnamed: 10
+- Source: https://sites.google.com/view/map-portal/downloadable-maps/soil?authuser=0
+
+Data Types:
+descrip                                                                                   str
+mapdate                                                                                   str
+mapscale                                                                                int64
+province                                                                                  str
+category                                                                                  str
+source                                                                                    str
+maptype                                                                                   str
+class                                                                                     str
+shape_leng                                                                              int64
+shape_area                                                                              int64
+Unnamed: 10                                                                           float64
+Source: https://sites.google.com/view/map-portal/downloadable-maps/soil?authuser=0    float64
+
+Missing Values:
+descrip                                                                                0
+mapdate                                                                                0
+mapscale                                                                               0
+province                                                                               0
+category                                                                               0
+source                                                                                 0
+maptype                                                                                0
+class                                                                                  0
+shape_leng                                                                             0
+shape_area                                                                             0
+Unnamed: 10                                                                           62
+Source: https://sites.google.com/view/map-portal/downloadable-maps/soil?authuser=0    62
+
+Duplicate Rows:
+42
+
+--------------------------------------------------------------------------------
+
+DATASET: KODA_Datasets - Surigao Del Sur Soil Data
+File name: KODA_Datasets - Surigao Del Sur Soil Data.csv
+Shape: (25, 12)
+
+Columns:
+- descrip
+- mapdate
+- mapscale
+- province
+- category
+- source
+- maptype
+- class
+- shape_leng
+- shape_area
+- Unnamed: 10
+- Source: https://sites.google.com/view/map-portal/downloadable-maps/soil?authuser=0
+
+Data Types:
+descrip                                                                                   str
+mapdate                                                                                 int64
+mapscale                                                                                int64
+province                                                                                  str
+category                                                                                  str
+source                                                                                    str
+maptype                                                                                   str
+class                                                                                   int64
+shape_leng                                                                              int64
+shape_area                                                                              int64
+Unnamed: 10                                                                           float64
+Source: https://sites.google.com/view/map-portal/downloadable-maps/soil?authuser=0    float64
+
+Missing Values:
+descrip                                                                                0
+mapdate                                                                                0
+mapscale                                                                               0
+province                                                                               0
+category                                                                               0
+source                                                                                 0
+maptype                                                                                0
+class                                                                                  0
+shape_leng                                                                             0
+shape_area                                                                             0
+Unnamed: 10                                                                           25
+Source: https://sites.google.com/view/map-portal/downloadable-maps/soil?authuser=0    25
+
+Duplicate Rows:
+13
+
+--------------------------------------------------------------------------------
+
+DATASET: KODA_Datasets - Temperature Dataset (Mindanao Focus)
+File name: KODA_Datasets - Temperature Dataset (Mindanao Focus).csv
+Shape: (194, 15)
+
+Columns:
+- Source: 
+https://power.larc.nasa.gov/data-access-viewer/
+
+- Unnamed: 1
+- Unnamed: 2
+- Unnamed: 3
+- Unnamed: 4
+- Unnamed: 5
+- Unnamed: 6
+- Unnamed: 7
+- Unnamed: 8
+- Unnamed: 9
+- Unnamed: 10
+- Unnamed: 11
+- Unnamed: 12
+- Unnamed: 13
+- Unnamed: 14
+
+Data Types:
+Source: \r\nhttps://power.larc.nasa.gov/data-access-viewer/\r\n    str
+Unnamed: 1                                                         str
+Unnamed: 2                                                         str
+Unnamed: 3                                                         str
+Unnamed: 4                                                         str
+Unnamed: 5                                                         str
+Unnamed: 6                                                         str
+Unnamed: 7                                                         str
+Unnamed: 8                                                         str
+Unnamed: 9                                                         str
+Unnamed: 10                                                        str
+Unnamed: 11                                                        str
+Unnamed: 12                                                        str
+Unnamed: 13                                                        str
+Unnamed: 14                                                        str
+
+Missing Values:
+Source: \r\nhttps://power.larc.nasa.gov/data-access-viewer/\r\n     1
+Unnamed: 1                                                         13
+Unnamed: 2                                                         13
+Unnamed: 3                                                         13
+Unnamed: 4                                                         13
+Unnamed: 5                                                         13
+Unnamed: 6                                                         13
+Unnamed: 7                                                         13
+Unnamed: 8                                                         13
+Unnamed: 9                                                         13
+Unnamed: 10                                                        13
+Unnamed: 11                                                        13
+Unnamed: 12                                                        13
+Unnamed: 13                                                        13
+Unnamed: 14                                                        13
+
+Duplicate Rows:
+0
+
+--------------------------------------------------------------------------------
+
+DATASET: KODA_Datasets - Zamboanga Del Norte Soil Data
+File name: KODA_Datasets - Zamboanga Del Norte Soil Data.csv
+Shape: (78, 12)
+
+Columns:
+- descrip
+- mapdate
+- mapscale
+- province
+- category
+- source
+- maptype
+- class
+- shape_leng
+- shape_area
+- Unnamed: 10
+- Source: https://sites.google.com/view/map-portal/downloadable-maps/soil?authuser=0
+
+Data Types:
+descrip                                                                                   str
+mapdate                                                                                 int64
+mapscale                                                                                int64
+province                                                                                  str
+category                                                                                  str
+source                                                                                    str
+maptype                                                                                   str
+class                                                                                   int64
+shape_leng                                                                              int64
+shape_area                                                                              int64
+Unnamed: 10                                                                           float64
+Source: https://sites.google.com/view/map-portal/downloadable-maps/soil?authuser=0    float64
+
+Missing Values:
+descrip                                                                                0
+mapdate                                                                                0
+mapscale                                                                               0
+province                                                                               0
+category                                                                               0
+source                                                                                 0
+maptype                                                                                0
+class                                                                                  0
+shape_leng                                                                             0
+shape_area                                                                             0
+Unnamed: 10                                                                           78
+Source: https://sites.google.com/view/map-portal/downloadable-maps/soil?authuser=0    78
+
+Duplicate Rows:
+50
+
+--------------------------------------------------------------------------------
