@@ -1,0 +1,149 @@
+PHASE 3 SPATIAL DATA INTEGRATION REPORT
+================================================================================
+
+1. INPUT DATA
+--------------------------------------------------------------------------------
+Earthquake file: C:\Users\Admin\OneDrive\Desktop\Visual Studio Code Projects\earthquake-final-project\data\processed\clean_earthquakes.csv
+Soil shapefile: C:\Users\Admin\OneDrive\Desktop\Visual Studio Code Projects\earthquake-final-project\data\raw\shapefiles\philsoilseries\PhilSoilSeries.shp
+
+Earthquake records loaded: (24185, 24)
+Soil polygon records loaded: (539, 5)
+Soil CRS after conversion: EPSG:4326
+
+2. SPATIAL JOIN RESULT
+--------------------------------------------------------------------------------
+Total earthquake records: 24185
+Earthquake records matched to soil polygon: 4120
+Earthquake records not matched to soil polygon: 20065
+Match rate: 17.04%
+
+Interpretation:
+Matched records are earthquake points located within soil polygons. Unmatched records are likely offshore events, events outside the soil shapefile coverage, or records located in areas classified as missing/no soil polygon coverage.
+
+3. MODEL DATASET
+--------------------------------------------------------------------------------
+Model dataset shape: (4120, 24)
+Saved all joined records to: C:\Users\Admin\OneDrive\Desktop\Visual Studio Code Projects\earthquake-final-project\data\processed\earthquakes_with_soil_all.csv
+Saved matched model dataset to: C:\Users\Admin\OneDrive\Desktop\Visual Studio Code Projects\earthquake-final-project\data\processed\model_dataset_spatial.csv
+
+Model dataset columns:
+- id
+- mag
+- place
+- time
+- updated
+- tsunami
+- nst
+- dmin
+- rms
+- gap
+- magtype
+- type_property
+- longitude
+- latitude
+- depth
+- year
+- month
+- day
+- hour
+- day_of_week
+- soil_desc
+- aez
+- soil_series
+- soil_polygon_hectares
+
+Missing values in model dataset:
+id                          0
+mag                         0
+place                       0
+time                        0
+updated                     0
+tsunami                     0
+nst                      2675
+dmin                     2512
+rms                       386
+gap                      1729
+magtype                     0
+type_property               0
+longitude                   0
+latitude                    0
+depth                       0
+year                        0
+month                       0
+day                         0
+hour                        0
+day_of_week                 0
+soil_desc                   0
+aez                        37
+soil_series                37
+soil_polygon_hectares       0
+
+Top soil descriptions among matched earthquake records:
+soil_desc
+Mountain soil (undifferentiated)    925
+Rough mountain land                 258
+Malalag loam                        169
+Bolinao clay                        109
+Catbalogan clay loam                109
+Camasan sandy clay loam              91
+Matho clay                           89
+Faraon clay                          63
+Bolinao clay loam                    54
+Luisiana clay                        52
+Annam clay loam                      52
+San Manuel silt loam                 51
+Hydrosol                             47
+Sibul clay                           45
+Faraon clay (Steep phase)            44
+Kabatohan loam                       39
+Ubay clay                            38
+Water body (includes no data)        37
+San Manuel silty clay loam           36
+Camansa clay                         36
+
+Top soil series among matched earthquake records:
+soil_series
+Mountain soil          925
+Rough mountain land    258
+Bolinao                192
+Malalag                187
+San Manuel             163
+Camansa                130
+Faraon                 109
+Catbalogan             109
+Matho                   89
+Kidapawan               71
+Ibaan                   70
+Luisiana                68
+Annam                   68
+Guimbalaon              57
+Antipolo                56
+Ubay                    55
+Sibul                   53
+Taal                    51
+Alaminos                50
+Quingua                 49
+
+Magnitude summary for matched model dataset:
+count    4120.000000
+mean        4.661672
+std         0.521819
+min         3.200000
+25%         4.300000
+50%         4.600000
+75%         4.900000
+max         8.120000
+
+Depth summary for matched model dataset:
+count    4120.000000
+mean       61.124064
+std        78.460886
+min         1.100000
+25%        15.286500
+50%        34.000000
+75%        73.850000
+max       657.800000
+
+4. RESEARCH LIMITATION
+--------------------------------------------------------------------------------
+The spatial join uses earthquake epicenter coordinates and surface soil polygons. This allows the study to associate earthquake records with the soil polygon at the epicentral location. However, many Philippine earthquakes occur offshore, so not all earthquake records are expected to match land-based soil polygons.

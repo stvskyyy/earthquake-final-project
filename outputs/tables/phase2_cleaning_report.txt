@@ -1,0 +1,160 @@
+PHASE 2 DATA CLEANING REPORT
+================================================================================
+
+1. EARTHQUAKE DATA CLEANING
+--------------------------------------------------------------------------------
+Raw earthquake shape: (27224, 29)
+Clean earthquake shape: (24185, 23)
+Rows removed due to missing essential values (mag, latitude, longitude, depth, time): 1188
+Rows removed due to suspicious/impossible values: 1851
+Saved to: C:\Users\Admin\OneDrive\Desktop\Visual Studio Code Projects\earthquake-final-project\data\processed\clean_earthquakes.csv
+
+Clean earthquake columns:
+- id
+- mag
+- place
+- time
+- updated
+- tsunami
+- sig
+- nst
+- dmin
+- rms
+- gap
+- magtype
+- type_property
+- title
+- longitude
+- latitude
+- depth
+- year
+- month
+- day
+- hour
+- day_of_week
+- magnitude_category
+
+Clean earthquake missing values:
+id                        0
+mag                       0
+place                     0
+time                      0
+updated                   0
+tsunami                   0
+sig                       0
+nst                   14126
+dmin                  14976
+rms                    2201
+gap                    9863
+magtype                   0
+type_property             0
+title                     0
+longitude                 0
+latitude                  0
+depth                     0
+year                      0
+month                     0
+day                       0
+hour                      0
+day_of_week               0
+magnitude_category        0
+
+2. SOIL DATA CLEANING
+--------------------------------------------------------------------------------
+File: KODA_Datasets - Agusan Soil Data.csv
+Raw shape: (71, 12)
+Clean shape: (22, 11)
+Duplicates removed: 49
+
+File: KODA_Datasets - Bukidnon Soil Data.csv
+Raw shape: (44, 12)
+Clean shape: (14, 11)
+Duplicates removed: 30
+
+File: KODA_Datasets - Cotabato Soil Data.csv
+Raw shape: (76, 12)
+Clean shape: (41, 11)
+Duplicates removed: 35
+
+File: KODA_Datasets - Davao Soil Data.csv
+Raw shape: (53, 16)
+Clean shape: (14, 11)
+Duplicates removed: 39
+
+File: KODA_Datasets - Misamis Occidental Soil Data.csv
+Raw shape: (40, 12)
+Clean shape: (18, 11)
+Duplicates removed: 22
+
+File: KODA_Datasets - Misamis Oriental Soil Data.csv
+Raw shape: (67, 12)
+Clean shape: (20, 11)
+Duplicates removed: 47
+
+File: KODA_Datasets - Surigao Del Norte Soil Data.csv
+Raw shape: (62, 12)
+Clean shape: (19, 11)
+Duplicates removed: 43
+
+File: KODA_Datasets - Surigao Del Sur Soil Data.csv
+Raw shape: (25, 12)
+Clean shape: (12, 11)
+Duplicates removed: 13
+
+File: KODA_Datasets - Zamboanga Del Norte Soil Data.csv
+Raw shape: (78, 12)
+Clean shape: (28, 11)
+Duplicates removed: 50
+
+Combined soil shape: (188, 11)
+Global duplicates removed after concatenation: 0
+Saved combined soil data to: C:\Users\Admin\OneDrive\Desktop\Visual Studio Code Projects\earthquake-final-project\data\processed\combined_soil_data.csv
+
+Combined soil columns:
+- descrip
+- mapdate
+- mapscale
+- province
+- category
+- source
+- maptype
+- class
+- shape_leng
+- shape_area
+- source_file
+
+Combined soil missing values:
+descrip        37
+mapdate        19
+mapscale        0
+province        0
+category        9
+source          1
+maptype         1
+class           3
+shape_leng      0
+shape_area      0
+source_file     0
+
+3. SOIL SUMMARY BY PROVINCE
+--------------------------------------------------------------------------------
+Soil summary shape: (9, 6)
+Saved soil summary to: C:\Users\Admin\OneDrive\Desktop\Visual Studio Code Projects\earthquake-final-project\data\processed\soil_summary_by_province.csv
+
+Soil summary preview:
+           province dominant_soil_category dominant_soil_description  soil_class_mode  soil_type_count  record_count
+     Agusan Del Sur         ALIMODIAN LOAM            ALIMODIAN LOAM            752.0               20            20
+           Bukidnon           ADTUYON CLAY                       NaN             45.0               14            14
+           Cotabato       AROMAN CLAY LOAM          AROMAN CLAY LOAM              1.0               40            40
+     Davao Oriental           BOLINAO CLAY                       NaN              1.0               14            14
+ Misamis Occidental      ADTUYON CLAY LOAM         ADTUYON CLAY LOAM              1.0               18            18
+   Misamis Oriental               HYDROSOL                  HYDROSOL              1.0               17            19
+  Surigao Del Norte    ANAO-OAN SILTY CLAY       ANAO-OAN SILTY CLAY              1.0               18            18
+    Surigao Del Sur            BANTOG CLAY               BANTOG CLAY              1.0                8             8
+Zamboanga Del Norte      ADTUYAN CLAY LOAM         ADTUYAN CLAY LOAM              1.0               28            28
+
+4. PHASE 2 OUTPUT FILES
+--------------------------------------------------------------------------------
+C:\Users\Admin\OneDrive\Desktop\Visual Studio Code Projects\earthquake-final-project\data\processed\clean_earthquakes.csv
+C:\Users\Admin\OneDrive\Desktop\Visual Studio Code Projects\earthquake-final-project\data\processed\combined_soil_data.csv
+C:\Users\Admin\OneDrive\Desktop\Visual Studio Code Projects\earthquake-final-project\data\processed\soil_summary_by_province.csv

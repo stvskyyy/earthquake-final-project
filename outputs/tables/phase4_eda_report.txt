@@ -1,0 +1,329 @@
+PHASE 4 EXPLORATORY DATA ANALYSIS REPORT
+================================================================================
+
+Input file: C:\Users\Admin\OneDrive\Desktop\Visual Studio Code Projects\earthquake-final-project\data\processed\model_dataset_spatial_clean.csv
+Dataset shape: (4083, 16)
+
+1. DATASET COLUMNS
+--------------------------------------------------------------------------------
+- mag
+- time
+- tsunami
+- magtype
+- longitude
+- latitude
+- depth
+- year
+- month
+- day
+- hour
+- day_of_week
+- soil_desc
+- aez
+- soil_series
+- soil_polygon_hectares
+
+2. MISSING VALUES
+--------------------------------------------------------------------------------
+mag                      0
+time                     0
+tsunami                  0
+magtype                  0
+longitude                0
+latitude                 0
+depth                    0
+year                     0
+month                    0
+day                      0
+hour                     0
+day_of_week              0
+soil_desc                0
+aez                      0
+soil_series              0
+soil_polygon_hectares    0
+
+3. TARGET VARIABLE: MAGNITUDE
+--------------------------------------------------------------------------------
+count    4083.00000
+mean        4.66157
+std         0.52148
+min         3.20000
+25%         4.30000
+50%         4.60000
+75%         4.90000
+max         8.12000
+
+Magnitude category counts:
+mag
+Minor (<4.0)           121
+Light (4.0-4.9)       3139
+Moderate (5.0-5.9)     702
+Strong (6.0-6.9)       101
+Major (7.0+)            20
+
+4. DEPTH
+--------------------------------------------------------------------------------
+count    4083.000000
+mean       61.331365
+std        78.701756
+min         1.100000
+25%        15.535000
+50%        34.150000
+75%        74.000000
+max       657.800000
+
+Depth category counts:
+depth
+Shallow (0-70 km)           2996
+Intermediate (70-300 km)    1011
+Deep (300-700 km)             76
+
+5. AEZ SUMMARY
+--------------------------------------------------------------------------------
+AEZ counts:
+aez
+Highlands    1995
+Uplands      1471
+Lowlands      617
+
+Magnitude by AEZ:
+           count      mean  median       std  min   max
+aez                                                    
+Highlands   1995  4.667459     4.6  0.527972  3.2  7.80
+Lowlands     617  4.665705     4.6  0.535540  3.6  7.70
+Uplands     1471  4.651849     4.5  0.506650  3.5  8.12
+
+Depth by AEZ:
+           count       mean  median        std   min    max
+aez                                                        
+Highlands   1995  59.749949   33.75  74.121698  1.10  657.8
+Lowlands     617  61.630089   35.00  74.473406  4.52  644.5
+Uplands     1471  63.350814   33.00  86.114643  3.18  657.8
+
+6. SOIL SERIES SUMMARY
+--------------------------------------------------------------------------------
+Top 20 soil series by record count:
+soil_series
+Mountain soil          925
+Rough mountain land    258
+Bolinao                192
+Malalag                187
+San Manuel             163
+Camansa                130
+Faraon                 109
+Catbalogan             109
+Matho                   89
+Kidapawan               71
+Ibaan                   70
+Luisiana                68
+Annam                   68
+Guimbalaon              57
+Antipolo                56
+Ubay                    55
+Sibul                   53
+Taal                    51
+Alaminos                50
+Quingua                 49
+
+Top 20 soil descriptions by record count:
+soil_desc
+Mountain soil (undifferentiated)    925
+Rough mountain land                 258
+Malalag loam                        169
+Bolinao clay                        109
+Catbalogan clay loam                109
+Camasan sandy clay loam              91
+Matho clay                           89
+Faraon clay                          63
+Bolinao clay loam                    54
+Luisiana clay                        52
+Annam clay loam                      52
+San Manuel silt loam                 51
+Hydrosol                             47
+Sibul clay                           45
+Faraon clay (Steep phase)            44
+Kabatohan loam                       39
+Ubay clay                            38
+San Manuel silty clay loam           36
+Camansa clay                         36
+Antipolo clay                        35
+
+Magnitude summary for top 20 soil series:
+                     count      mean  median       std  min   max
+soil_series                                                      
+Mountain soil          925  4.659870     4.6  0.534008  3.5  7.42
+Rough mountain land    258  4.710078     4.6  0.495262  3.7  6.99
+Bolinao                192  4.616823     4.5  0.475993  3.8  7.00
+Malalag                187  4.677326     4.6  0.515280  3.6  8.12
+San Manuel             163  4.691902     4.6  0.555701  3.6  7.27
+Camansa                130  4.773231     4.6  0.583095  3.8  6.48
+Catbalogan             109  4.642202     4.5  0.542165  3.7  6.50
+Faraon                 109  4.763303     4.6  0.601640  3.6  6.82
+Matho                   89  4.605843     4.5  0.401182  3.6  5.90
+Kidapawan               71  4.811549     4.7  0.573417  3.9  7.18
+Ibaan                   70  4.391000     4.3  0.407915  3.5  6.27
+Annam                   68  4.702941     4.7  0.338112  4.0  6.10
+Luisiana                68  4.722500     4.6  0.439207  3.7  5.90
+Guimbalaon              57  4.684211     4.6  0.449122  3.8  5.80
+Antipolo                56  4.620179     4.5  0.566105  3.8  7.60
+Ubay                    55  4.644909     4.5  0.404282  4.0  6.47
+Sibul                   53  4.683019     4.6  0.464400  4.1  6.30
+Taal                    51  4.488235     4.4  0.344469  3.9  5.90
+Alaminos                50  4.571200     4.5  0.560523  3.6  6.13
+Quingua                 49  4.613673     4.5  0.409006  4.0  5.77
+
+7. TEMPORAL SUMMARY
+--------------------------------------------------------------------------------
+Yearly earthquake record counts:
+year
+1906      1
+1907      2
+1912      1
+1913      1
+1918      1
+1919      1
+1922      1
+1923      1
+1924      3
+1925      3
+1926      3
+1928      7
+1929      4
+1930      2
+1931      3
+1932      5
+1933      3
+1934      5
+1935      1
+1936      1
+1937      2
+1938      1
+1939      1
+1940      2
+1942      5
+1944      1
+1945      2
+1947      3
+1948      3
+1949      3
+1950      2
+1952      2
+1953      1
+1954      2
+1955      4
+1956      1
+1959      1
+1960      2
+1961      1
+1962      1
+1963      2
+1964      1
+1965      5
+1967      2
+1968      6
+1969      4
+1970      6
+1971      5
+1972      2
+1973     27
+1974     24
+1975     19
+1976     41
+1977     44
+1978     29
+1979     41
+1980     33
+1981     36
+1982     35
+1983     37
+1984     44
+1985     35
+1986     21
+1987     38
+1988     39
+1989     33
+1990    223
+1991    123
+1992     41
+1993     48
+1994     51
+1995     78
+1996     87
+1997     62
+1998     70
+1999     55
+2000     43
+2001     52
+2002     76
+2003     62
+2004     84
+2005     63
+2006     77
+2007     76
+2008    143
+2009     53
+2010     49
+2011     55
+2012     90
+2013    157
+2014    103
+2015     81
+2016     92
+2017     98
+2018     73
+2019    243
+2020    147
+2021    112
+2022    123
+2023    119
+2024    105
+2025    131
+2026     40
+
+Monthly earthquake record counts:
+month
+1     323
+2     273
+3     348
+4     308
+5     313
+6     342
+7     481
+8     278
+9     282
+10    473
+11    308
+12    354
+
+8. CORRELATION SUMMARY
+--------------------------------------------------------------------------------
+Correlation with magnitude:
+mag                      1.000000
+month                    0.058836
+longitude                0.044005
+soil_polygon_hectares    0.004916
+day                      0.000348
+hour                    -0.022872
+day_of_week             -0.026021
+latitude                -0.051254
+depth                   -0.076006
+year                    -0.424347
+
+9. GENERATED FIGURES
+--------------------------------------------------------------------------------
+- outputs/figures/magnitude_distribution.png
+- outputs/figures/depth_distribution.png
+- outputs/figures/depth_vs_magnitude.png
+- outputs/figures/earthquake_count_by_aez.png
+- outputs/figures/magnitude_by_aez.png
+- outputs/figures/top_soil_series_counts.png
+- outputs/figures/mean_magnitude_by_top_soil_series.png
+- outputs/figures/yearly_earthquake_counts.png
+- outputs/figures/monthly_earthquake_counts.png
+- outputs/figures/spatial_distribution_magnitude.png
+
+10. INITIAL INTERPRETATION NOTES
+--------------------------------------------------------------------------------
+This EDA focuses on the 4,083 land-matched earthquake records with assigned soil attributes. The analysis should be interpreted within the scope of land-based earthquake epicenters only. Offshore events were excluded because they could not be assigned surface soil polygon attributes.
+
+Soil variables such as soil_desc, soil_series, and aez are contextual spatial predictors. They should not be interpreted as direct causal factors of earthquake magnitude. They are more directly relevant to ground shaking, amplification, and site effects.

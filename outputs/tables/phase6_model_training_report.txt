@@ -1,0 +1,81 @@
+PHASE 6 BASELINE MACHINE LEARNING MODEL TRAINING REPORT
+================================================================================
+
+Input file: C:\Users\Admin\OneDrive\Desktop\Visual Studio Code Projects\earthquake-final-project\data\processed\model_dataset_features.csv
+Original dataset shape: (4083, 18)
+Dataset shape after required-column dropna: (4083, 18)
+
+1. MODELING SETUP
+--------------------------------------------------------------------------------
+Target variable: mag
+Train-test split: 80% train / 20% test
+Random state: 42
+
+Numerical features:
+- longitude
+- latitude
+- depth
+- log_soil_polygon_hectares
+- month_sin
+- month_cos
+- hour_sin
+- hour_cos
+- day_of_week_sin
+- day_of_week_cos
+- day
+
+Categorical features:
+- tsunami
+- magtype
+- aez
+- soil_series_grouped
+- soil_desc_grouped
+- depth_category
+
+Preprocessing:
+- Numerical features: median imputation + standard scaling
+- Categorical features: most-frequent imputation + one-hot encoding
+
+2. TRAINED MODELS
+--------------------------------------------------------------------------------
+- Linear Regression
+- Random Forest Regressor
+- Gradient Boosting Regressor
+
+3. MODEL PERFORMANCE
+--------------------------------------------------------------------------------
+                      model  train_mae  test_mae  train_rmse  test_rmse  train_r2  test_r2
+Gradient Boosting Regressor   0.231734  0.283673    0.302796   0.371812  0.648284 0.562969
+          Linear Regression   0.259545  0.286102    0.346596   0.372895  0.539172 0.560420
+    Random Forest Regressor   0.096935  0.286191    0.128196   0.376096  0.936956 0.552839
+
+Saved performance summary to: C:\Users\Admin\OneDrive\Desktop\Visual Studio Code Projects\earthquake-final-project\outputs\tables\model_performance_summary.csv
+Saved test-set predictions to: C:\Users\Admin\OneDrive\Desktop\Visual Studio Code Projects\earthquake-final-project\outputs\tables\phase6_test_set_predictions.csv
+
+4. BEST BASELINE MODEL
+--------------------------------------------------------------------------------
+Best model by lowest test RMSE: Gradient Boosting Regressor
+Test MAE: 0.2837
+Test RMSE: 0.3718
+Test R^2: 0.5630
+
+5. SAVED MODEL FILES
+--------------------------------------------------------------------------------
+Linear Regression: C:\Users\Admin\OneDrive\Desktop\Visual Studio Code Projects\earthquake-final-project\models\linear_regression_model.pkl
+Random Forest Regressor: C:\Users\Admin\OneDrive\Desktop\Visual Studio Code Projects\earthquake-final-project\models\random_forest_model.pkl
+Gradient Boosting Regressor: C:\Users\Admin\OneDrive\Desktop\Visual Studio Code Projects\earthquake-final-project\models\gradient_boosting_model.pkl
+
+6. SAVED FEATURE IMPORTANCE FILES
+--------------------------------------------------------------------------------
+Random Forest Regressor: C:\Users\Admin\OneDrive\Desktop\Visual Studio Code Projects\earthquake-final-project\outputs\tables\random_forest_regressor_feature_importance.csv
+Gradient Boosting Regressor: C:\Users\Admin\OneDrive\Desktop\Visual Studio Code Projects\earthquake-final-project\outputs\tables\gradient_boosting_regressor_feature_importance.csv
+
+7. INTERPRETATION GUIDE
+--------------------------------------------------------------------------------
+MAE measures the average absolute prediction error in magnitude units. RMSE penalizes larger errors more strongly than MAE. R^2 estimates how much target variation is explained by the model, where values closer to 1 indicate stronger fit.
+
+A large gap between train performance and test performance may indicate overfitting. Because earthquake magnitude is complex and the dataset is dominated by light magnitude events, the baseline models may perform better on common magnitudes than on rare strong or major earthquakes.
+
+8. SCIENTIFIC LIMITATION
+--------------------------------------------------------------------------------
+The models estimate earthquake magnitude using seismic, spatial, temporal, and soil-context features. Soil variables should be interpreted as contextual geospatial predictors, not direct causal determinants of earthquake magnitude. Soil conditions are more directly related to site response, ground shaking amplification, and intensity.

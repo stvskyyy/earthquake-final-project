@@ -1,0 +1,174 @@
+PHASE 3B FINAL SPATIAL MODEL DATASET CLEANUP REPORT
+================================================================================
+
+Input file: C:\Users\Admin\OneDrive\Desktop\Visual Studio Code Projects\earthquake-final-project\data\processed\model_dataset_spatial.csv
+Original shape: (4120, 24)
+
+1. REMOVED NON-SOIL / NO-DATA RECORDS
+--------------------------------------------------------------------------------
+Rows before removal: 4120
+Rows after removal: 4083
+Rows removed: 37
+
+2. DROPPED COLUMNS
+--------------------------------------------------------------------------------
+- nst
+- dmin
+- gap
+- rms
+- id
+- updated
+- place
+- type_property
+
+3. TIME CLEANING
+--------------------------------------------------------------------------------
+Rows removed due to invalid time: 0
+
+4. REQUIRED MODELING FIELDS
+--------------------------------------------------------------------------------
+Required columns checked:
+- mag
+- longitude
+- latitude
+- depth
+- year
+- month
+- day
+- hour
+- day_of_week
+- magtype
+- tsunami
+- soil_desc
+- soil_series
+- aez
+- soil_polygon_hectares
+
+Rows before dropping missing required fields: 4083
+Rows after dropping missing required fields: 4083
+Rows removed: 0
+
+5. DUPLICATE CLEANING
+--------------------------------------------------------------------------------
+Rows before duplicate removal: 4083
+Rows after duplicate removal: 4083
+Rows removed: 0
+
+6. FINAL DATASET SUMMARY
+--------------------------------------------------------------------------------
+Original rows: 4120
+Final rows: 4083
+Final shape: (4083, 16)
+Saved clean model dataset to: C:\Users\Admin\OneDrive\Desktop\Visual Studio Code Projects\earthquake-final-project\data\processed\model_dataset_spatial_clean.csv
+
+Final columns:
+- mag
+- time
+- tsunami
+- magtype
+- longitude
+- latitude
+- depth
+- year
+- month
+- day
+- hour
+- day_of_week
+- soil_desc
+- aez
+- soil_series
+- soil_polygon_hectares
+
+Missing values in final dataset:
+mag                      0
+time                     0
+tsunami                  0
+magtype                  0
+longitude                0
+latitude                 0
+depth                    0
+year                     0
+month                    0
+day                      0
+hour                     0
+day_of_week              0
+soil_desc                0
+aez                      0
+soil_series              0
+soil_polygon_hectares    0
+
+Magnitude summary:
+count    4083.00000
+mean        4.66157
+std         0.52148
+min         3.20000
+25%         4.30000
+50%         4.60000
+75%         4.90000
+max         8.12000
+
+Depth summary:
+count    4083.000000
+mean       61.331365
+std        78.701756
+min         1.100000
+25%        15.535000
+50%        34.150000
+75%        74.000000
+max       657.800000
+
+Top soil descriptions:
+soil_desc
+Mountain soil (undifferentiated)    925
+Rough mountain land                 258
+Malalag loam                        169
+Bolinao clay                        109
+Catbalogan clay loam                109
+Camasan sandy clay loam              91
+Matho clay                           89
+Faraon clay                          63
+Bolinao clay loam                    54
+Luisiana clay                        52
+Annam clay loam                      52
+San Manuel silt loam                 51
+Hydrosol                             47
+Sibul clay                           45
+Faraon clay (Steep phase)            44
+Kabatohan loam                       39
+Ubay clay                            38
+San Manuel silty clay loam           36
+Camansa clay                         36
+Antipolo clay                        35
+
+Top soil series:
+soil_series
+Mountain soil          925
+Rough mountain land    258
+Bolinao                192
+Malalag                187
+San Manuel             163
+Camansa                130
+Faraon                 109
+Catbalogan             109
+Matho                   89
+Kidapawan               71
+Ibaan                   70
+Luisiana                68
+Annam                   68
+Guimbalaon              57
+Antipolo                56
+Ubay                    55
+Sibul                   53
+Taal                    51
+Alaminos                50
+Quingua                 49
+
+Top AEZ values:
+aez
+Highlands    1995
+Uplands      1471
+Lowlands      617
+
+7. MODELING NOTE
+--------------------------------------------------------------------------------
+This dataset is intended for the baseline machine learning model. Columns with severe missingness, non-soil/no-data polygons, and likely non-useful identifier fields were removed. The target variable is mag. Soil attributes are treated as contextual spatial predictors, not direct causal factors of earthquake magnitude.

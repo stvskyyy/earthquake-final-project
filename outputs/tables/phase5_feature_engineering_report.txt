@@ -1,0 +1,222 @@
+PHASE 5 FEATURE ENGINEERING REPORT
+================================================================================
+
+Input file: C:\Users\Admin\OneDrive\Desktop\Visual Studio Code Projects\earthquake-final-project\data\processed\model_dataset_spatial_clean.csv
+Original shape: (4083, 16)
+
+1. BASIC TYPE CLEANING
+--------------------------------------------------------------------------------
+Converted time column to datetime.
+Cleaned string spacing for categorical columns.
+
+2. RARE CATEGORY GROUPING
+--------------------------------------------------------------------------------
+Rare category threshold: fewer than 30 records
+
+Original soil_series unique count:
+185
+Grouped soil_series unique count:
+31
+
+Grouped soil_series counts:
+soil_series_grouped
+Mountain soil          925
+Other                  866
+Rough mountain land    258
+Bolinao                192
+Malalag                187
+San Manuel             163
+Camansa                130
+Faraon                 109
+Catbalogan             109
+Matho                   89
+Kidapawan               71
+Ibaan                   70
+Luisiana                68
+Annam                   68
+Guimbalaon              57
+Antipolo                56
+Ubay                    55
+Sibul                   53
+Taal                    51
+Alaminos                50
+Quingua                 49
+Hydrosol                47
+Alimodian               47
+Magallanes              47
+Angeles                 44
+Adtuyon                 42
+Umingan                 39
+Kabatohan               39
+Cervantes               37
+Lipa                    33
+Lugo                    32
+
+Original soil_desc unique count:
+312
+Grouped soil_desc unique count:
+25
+
+Grouped soil_desc counts:
+soil_desc_grouped
+Other                               1612
+Mountain soil (undifferentiated)     925
+Rough mountain land                  258
+Malalag loam                         169
+Bolinao clay                         109
+Catbalogan clay loam                 109
+Camasan sandy clay loam               91
+Matho clay                            89
+Faraon clay                           63
+Bolinao clay loam                     54
+Luisiana clay                         52
+Annam clay loam                       52
+San Manuel silt loam                  51
+Hydrosol                              47
+Sibul clay                            45
+Faraon clay (Steep phase)             44
+Kabatohan loam                        39
+Ubay clay                             38
+San Manuel silty clay loam            36
+Camansa clay                          36
+Antipolo clay                         35
+Angeles sand                          35
+Ibaan loam                            32
+Taal loam                             31
+Lipa loam                             31
+
+3. EARTHQUAKE CATEGORY FEATURES
+--------------------------------------------------------------------------------
+Depth category counts:
+depth_category
+Shallow         2996
+Intermediate    1011
+Deep              76
+
+Magnitude category counts for analysis only:
+magnitude_category_analysis
+Light       3139
+Moderate     702
+Minor        121
+Strong       101
+Major         20
+
+NOTE: magnitude_category_analysis is derived from mag and must not be used as a model predictor.
+
+4. CYCLICAL TIME FEATURES
+--------------------------------------------------------------------------------
+Created cyclical features:
+- month_sin
+- month_cos
+- hour_sin
+- hour_cos
+- day_of_week_sin
+- day_of_week_cos
+
+5. SOIL POLYGON AREA TRANSFORMATION
+--------------------------------------------------------------------------------
+Created log_soil_polygon_hectares using log1p transformation.
+This reduces skewness in the soil polygon area variable.
+
+6. MODELING FEATURE SELECTION
+--------------------------------------------------------------------------------
+Target column: mag
+
+Numerical features:
+- longitude
+- latitude
+- depth
+- log_soil_polygon_hectares
+- month_sin
+- month_cos
+- hour_sin
+- hour_cos
+- day_of_week_sin
+- day_of_week_cos
+- day
+
+Categorical features:
+- tsunami
+- magtype
+- aez
+- soil_series_grouped
+- soil_desc_grouped
+- depth_category
+
+Columns intentionally not used in the initial model:
+- year
+- month
+- hour
+- day_of_week
+- soil_series
+- soil_desc
+- soil_polygon_hectares
+- magnitude_category_analysis
+- time
+
+Rows before final dropna: 4083
+Rows after final dropna: 4083
+Rows removed after feature engineering: 0
+
+7. FINAL FEATURE DATASET
+--------------------------------------------------------------------------------
+Saved feature dataset to: C:\Users\Admin\OneDrive\Desktop\Visual Studio Code Projects\earthquake-final-project\data\processed\model_dataset_features.csv
+Final feature dataset shape: (4083, 18)
+
+Final feature dataset columns:
+- mag
+- longitude
+- latitude
+- depth
+- log_soil_polygon_hectares
+- month_sin
+- month_cos
+- hour_sin
+- hour_cos
+- day_of_week_sin
+- day_of_week_cos
+- day
+- tsunami
+- magtype
+- aez
+- soil_series_grouped
+- soil_desc_grouped
+- depth_category
+
+Missing values in final feature dataset:
+mag                          0
+longitude                    0
+latitude                     0
+depth                        0
+log_soil_polygon_hectares    0
+month_sin                    0
+month_cos                    0
+hour_sin                     0
+hour_cos                     0
+day_of_week_sin              0
+day_of_week_cos              0
+day                          0
+tsunami                      0
+magtype                      0
+aez                          0
+soil_series_grouped          0
+soil_desc_grouped            0
+depth_category               0
+
+Target summary:
+count    4083.00000
+mean        4.66157
+std         0.52148
+min         3.20000
+25%         4.30000
+50%         4.60000
+75%         4.90000
+max         8.12000
+
+8. METHODOLOGICAL JUSTIFICATION
+--------------------------------------------------------------------------------
+The engineered dataset combines seismic, spatial, temporal, and soil-related variables. Latitude, longitude, depth, and time-derived variables are retained because prior earthquake machine learning studies commonly use spatiotemporal and seismic parameters for magnitude or intensity prediction. Soil-related variables are included as contextual geospatial predictors because local soil conditions are associated with ground response, shaking amplification, and site effects.
+
+Rare soil categories were grouped into 'Other' to reduce categorical sparsity and improve model stability. Cyclical transformations were used for month, hour, and day_of_week because these variables are periodic. The magnitude category feature was kept only for analysis and excluded from modeling because it is derived from the target variable.
+
+The variable year was excluded from the initial feature set because the EDA showed a strong negative relationship with magnitude that may reflect historical catalog/reporting bias rather than a physical relationship.

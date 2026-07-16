@@ -1,0 +1,96 @@
+PHASE 6B ROBUSTNESS MODEL TRAINING WITHOUT MAGTYPE REPORT
+================================================================================
+
+Input file: C:\Users\Admin\OneDrive\Desktop\Visual Studio Code Projects\earthquake-final-project\data\processed\model_dataset_features.csv
+Original dataset shape: (4083, 18)
+Dataset shape after required-column dropna: (4083, 18)
+
+1. PURPOSE OF THIS EXPERIMENT
+--------------------------------------------------------------------------------
+This experiment repeats the baseline regression modeling workflow while excluding magtype. The goal is to test whether model performance depends heavily on the magnitude measurement type. This is important because magtype may not be available in a real-world pre-measurement prediction setting.
+
+2. MODELING SETUP
+--------------------------------------------------------------------------------
+Target variable: mag
+Train-test split: 80% train / 20% test
+Random state: 42
+
+Excluded feature for robustness test:
+- magtype
+
+Numerical features:
+- longitude
+- latitude
+- depth
+- log_soil_polygon_hectares
+- month_sin
+- month_cos
+- hour_sin
+- hour_cos
+- day_of_week_sin
+- day_of_week_cos
+- day
+
+Categorical features:
+- tsunami
+- aez
+- soil_series_grouped
+- soil_desc_grouped
+- depth_category
+
+Preprocessing:
+- Numerical features: median imputation + standard scaling
+- Categorical features: most-frequent imputation + one-hot encoding
+
+3. TRAINED MODELS
+--------------------------------------------------------------------------------
+- Linear Regression
+- Random Forest Regressor
+- Gradient Boosting Regressor
+
+4. MODEL PERFORMANCE WITHOUT MAGTYPE
+--------------------------------------------------------------------------------
+                      model  train_mae  test_mae  train_rmse  test_rmse  train_r2  test_r2
+    Random Forest Regressor   0.125287  0.357313    0.172089   0.489475  0.886395 0.242597
+Gradient Boosting Regressor   0.299178  0.361496    0.405284   0.499068  0.369899 0.212621
+          Linear Regression   0.349878  0.390144    0.489593   0.550945  0.080477 0.040418
+
+Saved performance summary to: C:\Users\Admin\OneDrive\Desktop\Visual Studio Code Projects\earthquake-final-project\outputs\tables\model_performance_summary_no_magtype.csv
+Saved test-set predictions to: C:\Users\Admin\OneDrive\Desktop\Visual Studio Code Projects\earthquake-final-project\outputs\tables\phase6b_test_set_predictions_no_magtype.csv
+
+5. BEST MODEL WITHOUT MAGTYPE
+--------------------------------------------------------------------------------
+Best model by lowest test RMSE: Random Forest Regressor
+Test MAE: 0.3573
+Test RMSE: 0.4895
+Test R²: 0.2426
+
+6. ERROR BY MAGNITUDE CATEGORY FOR BEST MODEL
+--------------------------------------------------------------------------------
+magnitude_category  count     mean   median      std      min      max
+      Minor (<4.0)     24 0.746039 0.701283 0.279872 0.228800 1.338567
+   Light (4.0-4.9)    611 0.256840 0.221000 0.197248 0.000533 1.131133
+Moderate (5.0-5.9)    150 0.517866 0.493550 0.295686 0.018333 1.361933
+  Strong (6.0-6.9)     26 1.025505 0.991383 0.557839 0.086500 1.778000
+      Major (7.0+)      6 2.124556 2.185683 0.465538 1.333500 2.678433
+
+Saved error-by-category summary to: C:\Users\Admin\OneDrive\Desktop\Visual Studio Code Projects\earthquake-final-project\outputs\tables\phase6b_error_by_magnitude_category_no_magtype.csv
+
+7. SAVED MODEL FILES
+--------------------------------------------------------------------------------
+Linear Regression: C:\Users\Admin\OneDrive\Desktop\Visual Studio Code Projects\earthquake-final-project\models\linear_regression_model_no_magtype.pkl
+Random Forest Regressor: C:\Users\Admin\OneDrive\Desktop\Visual Studio Code Projects\earthquake-final-project\models\random_forest_model_no_magtype.pkl
+Gradient Boosting Regressor: C:\Users\Admin\OneDrive\Desktop\Visual Studio Code Projects\earthquake-final-project\models\gradient_boosting_model_no_magtype.pkl
+
+8. SAVED FEATURE IMPORTANCE FILES
+--------------------------------------------------------------------------------
+Random Forest Regressor: C:\Users\Admin\OneDrive\Desktop\Visual Studio Code Projects\earthquake-final-project\outputs\tables\random_forest_regressor_feature_importance_no_magtype.csv
+Gradient Boosting Regressor: C:\Users\Admin\OneDrive\Desktop\Visual Studio Code Projects\earthquake-final-project\outputs\tables\gradient_boosting_regressor_feature_importance_no_magtype.csv
+
+9. INTERPRETATION GUIDE
+--------------------------------------------------------------------------------
+Compare these results with Phase 6. If test performance drops substantially after removing magtype, then the original model depended heavily on the magnitude-type feature. If performance remains similar, then spatial, temporal, depth, and soil-context features still provide predictive information without magtype.
+
+10. SCIENTIFIC LIMITATION
+--------------------------------------------------------------------------------
+This no-magtype model is more conservative for interpretation because it avoids relying on a catalog-specific magnitude measurement label. However, the model still estimates magnitude from observational and contextual features, and should not be interpreted as a deterministic earthquake prediction system.

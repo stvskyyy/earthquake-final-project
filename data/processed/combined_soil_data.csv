@@ -1,0 +1,189 @@
+descrip,mapdate,mapscale,province,category,source,maptype,class,shape_leng,shape_area,source_file
+MOUNTAIN SOILS,1962,250000,Agusan Del Sur,MOUNTAIN SOILS,Agusan_Soil_250thsnd_1,SOIL,45.0,0,0,KODA_Datasets - Agusan Soil Data.csv
+CAMANSA SANDY CLAY LOAM,1962,250000,Agusan Del Sur,CAMANSA SANDY CLAY LOAM,Agusan_Soil_250thsnd_1,SOIL,210.0,0,0,KODA_Datasets - Agusan Soil Data.csv
+MAMBUNAY SANDY LOAM,1962,250000,Agusan Del Sur,MAMBUNAY SANDY LOAM,Agusan_Soil_250thsnd_1,SOIL,890.0,0,0,KODA_Datasets - Agusan Soil Data.csv
+CAMANSA SANDY,1962,250000,Agusan Del Sur,CAMANSA SANDY,Agusan_Soil_250thsnd_1,SOIL,363.0,0,0,KODA_Datasets - Agusan Soil Data.csv
+KIDAPAWAN LOAM,1962,250000,Agusan Del Sur,KIDAPAWAN LOAM,Agusan_Soil_250thsnd_1,SOIL,888.0,0,0,KODA_Datasets - Agusan Soil Data.csv
+BUTUAN LOAM,1962,250000,Agusan Del Sur,BUTUAN LOAM,Agusan_Soil_250thsnd_1,SOIL,887.0,0,0,KODA_Datasets - Agusan Soil Data.csv
+BOLINAO SILT LOAM,1962,250000,Agusan Del Sur,BOLINAO SILT LOAM,Agusan_Soil_250thsnd_1,SOIL,886.0,0,0,KODA_Datasets - Agusan Soil Data.csv
+MALALAG SILT LOAM,1962,250000,Agusan Del Sur,MALALAG SILT LOAM,Agusan_Soil_250thsnd_1,SOIL,359.0,0,0,KODA_Datasets - Agusan Soil Data.csv
+HYDROSOL,1962,250000,Agusan Del Sur,HYDROSOL,Agusan_Soil_250thsnd_1,SOIL,1.0,0,0,KODA_Datasets - Agusan Soil Data.csv
+KITCHARAO SILT LOAM,1962,250000,Agusan Del Sur,KITCHARAO SILT LOAM,Agusan_Soil_250thsnd_1,SOIL,889.0,0,0,KODA_Datasets - Agusan Soil Data.csv
+ISABELA LOAM,1962,250000,Agusan Del Sur,ISABELA LOAM,Agusan_Soil_250thsnd_1,SOIL,752.0,0,0,KODA_Datasets - Agusan Soil Data.csv
+UMINGAN CLAY LOAM,1962,250000,Agusan Del Sur,UMINGAN CLAY LOAM,Agusan_Soil_250thsnd_1,SOIL,168.0,0,0,KODA_Datasets - Agusan Soil Data.csv
+S. MANUEL CLAY LOAM,1962,250000,Agusan Del Sur,S. MANUEL CLAY LOAM,Agusan_Soil_250thsnd_1,SOIL,236.0,0,0,KODA_Datasets - Agusan Soil Data.csv
+SAN MANUEL LOAM,1962,250000,Agusan Del Sur,SAN MANUEL LOAM,Agusan_Soil_250thsnd_1,SOIL,190.0,0,0,KODA_Datasets - Agusan Soil Data.csv
+RUBBLE LAND,1962,250000,Agusan Del Sur,RUBBLE LAND,Agusan_Soil_250thsnd_1,SOIL,366.0,0,0,KODA_Datasets - Agusan Soil Data.csv
+CAMANSA CLAY LOAM,1962,250000,Agusan Del Sur,CAMANSA CLAY LOAM,Agusan_Soil_250thsnd_1,SOIL,575.0,0,0,KODA_Datasets - Agusan Soil Data.csv
+,1962,250000,Agusan Del Sur,,Agusan_Soil_250thsnd_1,SOIL,752.0,0,0,KODA_Datasets - Agusan Soil Data.csv
+ISABELA CLAY,1962,250000,Agusan Del Sur,ISABELA CLAY,Agusan_Soil_250thsnd_1,SOIL,256.0,0,0,KODA_Datasets - Agusan Soil Data.csv
+,1962,250000,Agusan Del Sur,,Agusan_Soil_250thsnd_1,SOIL,686.0,0,0,KODA_Datasets - Agusan Soil Data.csv
+ALIMODIAN LOAM,1962,250000,Agusan Del Sur,ALIMODIAN LOAM,Agusan_Soil_250thsnd_1,SOIL,885.0,0,0,KODA_Datasets - Agusan Soil Data.csv
+QUINGUA SILT LOAM,1962,250000,Agusan Del Sur,QUINGUA SILT LOAM,Agusan_Soil_250thsnd_1,SOIL,5.0,0,0,KODA_Datasets - Agusan Soil Data.csv
+CABANGAN CLAY,1962,250000,Agusan Del Sur,CABANGAN CLAY,Agusan_Soil_250thsnd_1,SOIL,362.0,0,0,KODA_Datasets - Agusan Soil Data.csv
+,1988,250000,Bukidnon,MOUNTAIN SOILS UNDIFFERENCES,Bukiddon_Soil_250thsnd_1,SOIL,45.0,0,0,KODA_Datasets - Bukidnon Soil Data.csv
+,1988,250000,Bukidnon,BOINAO CLAY,Bukiddon_Soil_250thsnd_1,SOIL,153.0,0,0,KODA_Datasets - Bukidnon Soil Data.csv
+,1988,250000,Bukidnon,ALIMODIAN CLAY,Bukiddon_Soil_250thsnd_1,SOIL,327.0,0,0,KODA_Datasets - Bukidnon Soil Data.csv
+,1988,250000,Bukidnon,JASAAN CLAY,Bukiddon_Soil_250thsnd_1,SOIL,317.0,0,0,KODA_Datasets - Bukidnon Soil Data.csv
+,1988,250000,Bukidnon,ADTUYON CLAY,Bukiddon_Soil_250thsnd_1,SOIL,323.0,0,0,KODA_Datasets - Bukidnon Soil Data.csv
+,1988,250000,Bukidnon,LA CASTELLANA CLAY,Bukiddon_Soil_250thsnd_1,SOIL,305.0,0,0,KODA_Datasets - Bukidnon Soil Data.csv
+,1988,250000,Bukidnon,KIDAPOWAN CLAYLOAM,Bukiddon_Soil_250thsnd_1,SOIL,211.0,0,0,KODA_Datasets - Bukidnon Soil Data.csv
+,1988,250000,Bukidnon,MACOLOD CLAY,Bukiddon_Soil_250thsnd_1,SOIL,325.0,0,0,KODA_Datasets - Bukidnon Soil Data.csv
+,1988,250000,Bukidnon,MAAPAG CLAY,Bukiddon_Soil_250thsnd_1,SOIL,328.0,0,0,KODA_Datasets - Bukidnon Soil Data.csv
+,1988,250000,Bukidnon,SAN MIGUEL SILT LOAM,Bukiddon_Soil_250thsnd_1,SOIL,82.0,0,0,KODA_Datasets - Bukidnon Soil Data.csv
+,1988,250000,Bukidnon,ADTUYON CLAY STONY PHASE,Bukiddon_Soil_250thsnd_1,SOIL,324.0,0,0,KODA_Datasets - Bukidnon Soil Data.csv
+,1988,250000,Bukidnon,ROUGH BROKEN LAND,Bukiddon_Soil_250thsnd_1,SOIL,326.0,0,0,KODA_Datasets - Bukidnon Soil Data.csv
+,1988,250000,Bukidnon,CALAUIG CLAY,Bukiddon_Soil_250thsnd_1,SOIL,330.0,0,0,KODA_Datasets - Bukidnon Soil Data.csv
+,1988,250000,Bukidnon,FARAGON CLAY,Bukiddon_Soil_250thsnd_1,SOIL,132.0,0,0,KODA_Datasets - Bukidnon Soil Data.csv
+PARANG CLAY LOAM,1947,250000,Cotabato,PARANG CLAY LOAM,CotabatoProvince_SoilMap,SOIL,431.0,0,0,KODA_Datasets - Cotabato Soil Data.csv
+TAMONTAKA CLAY,1947,250000,Cotabato,TAMONTAKA CLAY,CotabatoProvince_SoilMap,SOIL,435.0,0,0,KODA_Datasets - Cotabato Soil Data.csv
+MOUNTAIN SOILS,1947,250000,Cotabato,MOUNTAIN SOILS,CotabatoProvince_SoilMap,SOIL,45.0,0,0,KODA_Datasets - Cotabato Soil Data.csv
+MALALOG LOAM,1947,250000,Cotabato,MALALOG LOAM,CotabatoProvince_SoilMap,SOIL,213.0,0,0,KODA_Datasets - Cotabato Soil Data.csv
+MADUNGO CLAY LOAM,1947,250000,Cotabato,MADUNGO CLAY LOAM,CotabatoProvince_SoilMap,SOIL,212.0,0,0,KODA_Datasets - Cotabato Soil Data.csv
+NUPOL SANDY LOAM,1947,250000,Cotabato,NUPOL SANDY LOAM,CotabatoProvince_SoilMap,SOIL,439.0,0,0,KODA_Datasets - Cotabato Soil Data.csv
+MALALAG FINE SANDY LOAM,1947,250000,Cotabato,MALALAG FINE SANDY LOAM,CotabatoProvince_SoilMap,SOIL,442.0,0,0,KODA_Datasets - Cotabato Soil Data.csv
+DADIANGAS SANDY LOAM,1947,250000,Cotabato,DADIANGAS SANDY LOAM,CotabatoProvince_SoilMap,SOIL,437.0,0,0,KODA_Datasets - Cotabato Soil Data.csv
+MAKAR LOAM,1947,250000,Cotabato,MAKAR LOAM,CotabatoProvince_SoilMap,SOIL,444.0,0,0,KODA_Datasets - Cotabato Soil Data.csv
+TUPI FINE SANDY LOAM,1947,250000,Cotabato,TUPI FINE SANDY LOAM,CotabatoProvince_SoilMap,SOIL,270.0,0,0,KODA_Datasets - Cotabato Soil Data.csv
+KIDAPAWAN SANDY CLAY LOAM,1947,250000,Cotabato,KIDAPAWAN SANDY CLAY LOAM,CotabatoProvince_SoilMap,SOIL,583.0,0,0,KODA_Datasets - Cotabato Soil Data.csv
+KIDAPOWAN CLAY LOAM,1947,250000,Cotabato,KIDAPOWAN CLAY LOAM,CotabatoProvince_SoilMap,SOIL,211.0,0,0,KODA_Datasets - Cotabato Soil Data.csv
+"SOILS, UNDIFFERENTIATED",1947,250000,Cotabato,"SOILS, UNDIFFERENTIATED",CotabatoProvince_SoilMap,SOIL,433.0,0,0,KODA_Datasets - Cotabato Soil Data.csv
+TIMAGA CLAY LOAM,1947,250000,Cotabato,TIMAGA CLAY LOAM,CotabatoProvince_SoilMap,SOIL,630.0,0,0,KODA_Datasets - Cotabato Soil Data.csv
+HYDROSOL,1947,250000,Cotabato,HYDROSOL,CotabatoProvince_SoilMap,SOIL,1.0,0,0,KODA_Datasets - Cotabato Soil Data.csv
+SAN MANUEL LOAM,1947,250000,Cotabato,SAN MANUEL LOAM,CotabatoProvince_SoilMap,SOIL,190.0,0,0,KODA_Datasets - Cotabato Soil Data.csv
+QUILADA SANDY CLAY LOAM,1947,250000,Cotabato,QUILADA SANDY CLAY LOAM,CotabatoProvince_SoilMap,SOIL,451.0,0,0,KODA_Datasets - Cotabato Soil Data.csv
+NOT ON LEGEND,1947,250000,Cotabato,NOT ON LEGEND,CotabatoProvince_SoilMap,SOIL,481.0,0,0,KODA_Datasets - Cotabato Soil Data.csv
+LA COSTALLENA CLAYLOAM,1947,250000,Cotabato,LA COSTALLENA CLAYLOAM,CotabatoProvince_SoilMap,SOIL,305.0,0,0,KODA_Datasets - Cotabato Soil Data.csv
+MACOLOD CLAY,1947,250000,Cotabato,MACOLOD CLAY,CotabatoProvince_SoilMap,SOIL,325.0,0,0,KODA_Datasets - Cotabato Soil Data.csv
+KABACAN CLAY LOAM,1947,250000,Cotabato,KABACAN CLAY LOAM,CotabatoProvince_SoilMap,SOIL,453.0,0,0,KODA_Datasets - Cotabato Soil Data.csv
+TINAMBULAN PEAT,1947,250000,Cotabato,TINAMBULAN PEAT,CotabatoProvince_SoilMap,SOIL,457.0,0,0,KODA_Datasets - Cotabato Soil Data.csv
+LUTAYAN SANDY LOAM,1947,250000,Cotabato,LUTAYAN SANDY LOAM,CotabatoProvince_SoilMap,SOIL,443.0,0,0,KODA_Datasets - Cotabato Soil Data.csv
+NEW ILOILO FINE SANDY LOAM,1947,250000,Cotabato,NEW ILOILO FINE SANDY LOAM,CotabatoProvince_SoilMap,SOIL,445.0,0,0,KODA_Datasets - Cotabato Soil Data.csv
+DADIANGAS LOAMY SAND,1947,250000,Cotabato,DADIANGAS LOAMY SAND,CotabatoProvince_SoilMap,SOIL,438.0,0,0,KODA_Datasets - Cotabato Soil Data.csv
+BANGO SAND LOAM,1947,250000,Cotabato,BANGO SAND LOAM,CotabatoProvince_SoilMap,SOIL,440.0,0,0,KODA_Datasets - Cotabato Soil Data.csv
+MATULAS FINE SANDY LOAM,1947,250000,Cotabato,MATULAS FINE SANDY LOAM,CotabatoProvince_SoilMap,SOIL,447.0,0,0,KODA_Datasets - Cotabato Soil Data.csv
+FARAON CLAY,1947,250000,Cotabato,FARAON CLAY,CotabatoProvince_SoilMap,SOIL,132.0,0,0,KODA_Datasets - Cotabato Soil Data.csv
+SINOLAN SANDY LOAM,1947,250000,Cotabato,SINOLAN SANDY LOAM,CotabatoProvince_SoilMap,SOIL,441.0,0,0,KODA_Datasets - Cotabato Soil Data.csv
+,1947,250000,Cotabato,,CotabatoProvince_SoilMap,SOIL,,0,0,KODA_Datasets - Cotabato Soil Data.csv
+DALICAN CLAY LOAM,1947,250000,Cotabato,DALICAN CLAY LOAM,CotabatoProvince_SoilMap,SOIL,639.0,0,0,KODA_Datasets - Cotabato Soil Data.csv
+SAN MANUEL SILTY CLAY LOAM,1947,250000,Cotabato,SAN MANUEL SILTY CLAY LOAM,CotabatoProvince_SoilMap,SOIL,94.0,0,0,KODA_Datasets - Cotabato Soil Data.csv
+TACLOBAN CLAY,1947,250000,Cotabato,TACLOBAN CLAY,CotabatoProvince_SoilMap,SOIL,194.0,0,0,KODA_Datasets - Cotabato Soil Data.csv
+AROMAN CLAY LOAM,1947,250000,Cotabato,AROMAN CLAY LOAM,CotabatoProvince_SoilMap,SOIL,449.0,0,0,KODA_Datasets - Cotabato Soil Data.csv
+KABACAN CLAY,1947,250000,Cotabato,KABACAN CLAY,CotabatoProvince_SoilMap,SOIL,452.0,0,0,KODA_Datasets - Cotabato Soil Data.csv
+KUDARANGAN CLAY,1947,250000,Cotabato,KUDARANGAN CLAY,CotabatoProvince_SoilMap,SOIL,448.0,0,0,KODA_Datasets - Cotabato Soil Data.csv
+SAN MANUEL GRAVELLY LOAM,1947,250000,Cotabato,SAN MANUEL GRAVELLY LOAM,CotabatoProvince_SoilMap,SOIL,456.0,0,0,KODA_Datasets - Cotabato Soil Data.csv
+BALUT CLAY LOAM,1947,250000,Cotabato,BALUT CLAY LOAM,CotabatoProvince_SoilMap,SOIL,434.0,0,0,KODA_Datasets - Cotabato Soil Data.csv
+RIVERWASH,1947,250000,Cotabato,RIVERWASH,CotabatoProvince_SoilMap,SOIL,152.0,0,0,KODA_Datasets - Cotabato Soil Data.csv
+BULDUN SANDY LOAM,1947,250000,Cotabato,BULDUN SANDY LOAM,CotabatoProvince_SoilMap,SOIL,432.0,0,0,KODA_Datasets - Cotabato Soil Data.csv
+LANGKONG SANDY LOAM,1947,250000,Cotabato,LANGKONG SANDY LOAM,CotabatoProvince_SoilMap,SOIL,458.0,0,0,KODA_Datasets - Cotabato Soil Data.csv
+,1947,50000,Davao Oriental,SAN MANUEL SILTY CLAY LOAM,Davao_SoilMap,SOIL,94.0,0,0,KODA_Datasets - Davao Soil Data.csv
+,1947,50000,Davao Oriental,MALALOG LOAM,Davao_SoilMap,SOIL,213.0,0,0,KODA_Datasets - Davao Soil Data.csv
+,1947,50000,Davao Oriental,MATINA CLAY LOAM,Davao_SoilMap,SOIL,206.0,0,0,KODA_Datasets - Davao Soil Data.csv
+,1947,50000,Davao Oriental,MOUNTAIN SOILS,Davao_SoilMap,SOIL,45.0,0,0,KODA_Datasets - Davao Soil Data.csv
+,1947,50000,Davao Oriental,BOLINAO CLAY,Davao_SoilMap,SOIL,153.0,0,0,KODA_Datasets - Davao Soil Data.csv
+,1947,50000,Davao Oriental,HYDROSOL,Davao_SoilMap,SOIL,1.0,0,0,KODA_Datasets - Davao Soil Data.csv
+,1947,50000,Davao Oriental,CAMANSA SANDY CLAY LOAM,Davao_SoilMap,SOIL,210.0,0,0,KODA_Datasets - Davao Soil Data.csv
+,1947,50000,Davao Oriental,CABANGAN CLAY LOAM,Davao_SoilMap,SOIL,161.0,0,0,KODA_Datasets - Davao Soil Data.csv
+,1947,50000,Davao Oriental,FARAON CLAY,Davao_SoilMap,SOIL,132.0,0,0,KODA_Datasets - Davao Soil Data.csv
+,1947,50000,Davao Oriental,CABANTIAN CLAY,Davao_SoilMap,SOIL,208.0,0,0,KODA_Datasets - Davao Soil Data.csv
+,1947,50000,Davao Oriental,KIDAPOWAN CLAY LOAM,Davao_SoilMap,SOIL,211.0,0,0,KODA_Datasets - Davao Soil Data.csv
+,1947,50000,Davao Oriental,TUGBOK CLAY,Davao_SoilMap,SOIL,207.0,0,0,KODA_Datasets - Davao Soil Data.csv
+,1947,50000,Davao Oriental,MIRAL CLAY LOAM,Davao_SoilMap,SOIL,209.0,0,0,KODA_Datasets - Davao Soil Data.csv
+,1947,50000,Davao Oriental,MADUNGO CLAY LOAM,Davao_SoilMap,SOIL,212.0,0,0,KODA_Datasets - Davao Soil Data.csv
+ADTUYON CLAY LOAM,1972,250000,Misamis Occidental,ADTUYON CLAY LOAM,Misamis_Oc_Soil_250thsnd_1,SOIL,573.0,0,0,KODA_Datasets - Misamis Occidental Soil Data.csv
+AOTUYON LOAM,1972,250000,Misamis Occidental,AOTUYON LOAM,Misamis_Oc_Soil_250thsnd_1,SOIL,523.0,0,0,KODA_Datasets - Misamis Occidental Soil Data.csv
+HYDROSOL,1972,250000,Misamis Occidental,HYDROSOL,Misamis_Oc_Soil_250thsnd_1,SOIL,1.0,0,0,KODA_Datasets - Misamis Occidental Soil Data.csv
+KABACAN CLAY LOAM,1972,250000,Misamis Occidental,KABACAN CLAY LOAM,Misamis_Oc_Soil_250thsnd_1,SOIL,453.0,0,0,KODA_Datasets - Misamis Occidental Soil Data.csv
+BANTOG CLAY,1972,250000,Misamis Occidental,BANTOG CLAY,Misamis_Oc_Soil_250thsnd_1,SOIL,228.0,0,0,KODA_Datasets - Misamis Occidental Soil Data.csv
+CAMIGUIN CLAY,1972,250000,Misamis Occidental,CAMIGUIN CLAY,Misamis_Oc_Soil_250thsnd_1,SOIL,579.0,0,0,KODA_Datasets - Misamis Occidental Soil Data.csv
+ADUTYON CLAY,1972,250000,Misamis Occidental,ADUTYON CLAY,Misamis_Oc_Soil_250thsnd_1,SOIL,323.0,0,0,KODA_Datasets - Misamis Occidental Soil Data.csv
+CASTILLA CLAY LOAM,1972,250000,Misamis Occidental,CASTILLA CLAY LOAM,Misamis_Oc_Soil_250thsnd_1,SOIL,244.0,0,0,KODA_Datasets - Misamis Occidental Soil Data.csv
+BALIANGOA CLAY LOAM,1972,250000,Misamis Occidental,BALIANGOA CLAY LOAM,Misamis_Oc_Soil_250thsnd_1,SOIL,816.0,0,0,KODA_Datasets - Misamis Occidental Soil Data.csv
+MOUNTAIN SOILS,1972,250000,Misamis Occidental,MOUNTAIN SOILS,Misamis_Oc_Soil_250thsnd_1,SOIL,45.0,0,0,KODA_Datasets - Misamis Occidental Soil Data.csv
+GUIMBALAON CLAY LOAM,1972,250000,Misamis Occidental,GUIMBALAON CLAY LOAM,Misamis_Oc_Soil_250thsnd_1,SOIL,280.0,0,0,KODA_Datasets - Misamis Occidental Soil Data.csv
+PULUPANDAN SANDY LOAM,1972,250000,Misamis Occidental,PULUPANDAN SANDY LOAM,Misamis_Oc_Soil_250thsnd_1,SOIL,255.0,0,0,KODA_Datasets - Misamis Occidental Soil Data.csv
+QUINGUA SILT LOAM,1972,250000,Misamis Occidental,QUINGUA SILT LOAM,Misamis_Oc_Soil_250thsnd_1,SOIL,5.0,0,0,KODA_Datasets - Misamis Occidental Soil Data.csv
+BEACH SAND,1972,250000,Misamis Occidental,BEACH SAND,Misamis_Oc_Soil_250thsnd_1,SOIL,118.0,0,0,KODA_Datasets - Misamis Occidental Soil Data.csv
+JASOAN CLAY LOAM,1972,250000,Misamis Occidental,JASOAN CLAY LOAM,Misamis_Oc_Soil_250thsnd_1,SOIL,318.0,0,0,KODA_Datasets - Misamis Occidental Soil Data.csv
+CULIS SANDY CLAY LOAM,1972,250000,Misamis Occidental,CULIS SANDY CLAY LOAM,Misamis_Oc_Soil_250thsnd_1,SOIL,672.0,0,0,KODA_Datasets - Misamis Occidental Soil Data.csv
+GUIMBALAON CLAY LOAM STONY PHASE,1972,250000,Misamis Occidental,GUIMBALAON CLAY LOAM STONY PHASE,Misamis_Oc_Soil_250thsnd_1,SOIL,278.0,0,0,KODA_Datasets - Misamis Occidental Soil Data.csv
+MABINBI SANDY CLAY LOAM,1972,250000,Misamis Occidental,MABINBI SANDY CLAY LOAM,Misamis_Oc_Soil_250thsnd_1,SOIL,815.0,0,0,KODA_Datasets - Misamis Occidental Soil Data.csv
+MOUNTAIN SOILS,Unknown,50000,Misamis Oriental,MOUNTAIN SOILS,MisamisOriental_SoilMap,SOIL,45.0,0,0,KODA_Datasets - Misamis Oriental Soil Data.csv
+JASOAN CLAY,Unknown,50000,Misamis Oriental,JASOAN CLAY,MisamisOriental_SoilMap,SOIL,317.0,0,0,KODA_Datasets - Misamis Oriental Soil Data.csv
+SAN MANUEL LOAM,Unknown,50000,Misamis Oriental,SAN MANUEL LOAM,MisamisOriental_SoilMap,SOIL,190.0,0,0,KODA_Datasets - Misamis Oriental Soil Data.csv
+JASOAN-BOLINAO COMPLEX,Unknown,50000,Misamis Oriental,JASOAN-BOLINAO COMPLEX,MisamisOriental_SoilMap,SOIL,321.0,0,0,KODA_Datasets - Misamis Oriental Soil Data.csv
+UMINGAN CLAY LOAM,Unknown,50000,Misamis Oriental,UMINGAN CLAY LOAM,MisamisOriental_SoilMap,SOIL,168.0,0,0,KODA_Datasets - Misamis Oriental Soil Data.csv
+NOT SHOWN IN LEGEND,Unknown,50000,Misamis Oriental,NOT SHOWN IN LEGEND,MisamisOriental_SoilMap,SOIL,116.0,0,0,KODA_Datasets - Misamis Oriental Soil Data.csv
+MANBAJOA CLAY,Unknown,50000,Misamis Oriental,MANBAJOA CLAY,MisamisOriental_SoilMap,SOIL,315.0,0,0,KODA_Datasets - Misamis Oriental Soil Data.csv
+CAMIGUIN CLAY,Unknown,50000,Misamis Oriental,CAMIGUIN CLAY,MisamisOriental_SoilMap,SOIL,320.0,0,0,KODA_Datasets - Misamis Oriental Soil Data.csv
+HYDROSOL,Unknown,50000,Misamis Oriental,HYDROSOL,MisamisOriental_SoilMap,SOIL,1.0,0,0,KODA_Datasets - Misamis Oriental Soil Data.csv
+BANTOG CLAY,Unknown,50000,Misamis Oriental,BANTOG CLAY,MisamisOriental_SoilMap,SOIL,228.0,0,0,KODA_Datasets - Misamis Oriental Soil Data.csv
+ALLMODIAN CLAY LOAM,Unknown,50000,Misamis Oriental,ALLMODIAN CLAY LOAM,MisamisOriental_SoilMap,SOIL,126.0,0,0,KODA_Datasets - Misamis Oriental Soil Data.csv
+BEACH SAND,Unknown,50000,Misamis Oriental,BEACH SAND,MisamisOriental_SoilMap,SOIL,118.0,0,0,KODA_Datasets - Misamis Oriental Soil Data.csv
+BOLINAO CLAY,Unknown,50000,Misamis Oriental,BOLINAO CLAY,MisamisOriental_SoilMap,SOIL,153.0,0,0,KODA_Datasets - Misamis Oriental Soil Data.csv
+,Unknown,50000,Misamis Oriental,,MisamisOriental_SoilMap,SOIL,,0,0,KODA_Datasets - Misamis Oriental Soil Data.csv
+MATINA CLAY,Unknown,50000,Misamis Oriental,MATINA CLAY,MisamisOriental_SoilMap,SOIL,206.0,0,0,KODA_Datasets - Misamis Oriental Soil Data.csv
+JASOAN CLAY STONY PHASE,Unknown,50000,Misamis Oriental,JASOAN CLAY STONY PHASE,MisamisOriental_SoilMap,SOIL,319.0,0,0,KODA_Datasets - Misamis Oriental Soil Data.csv
+MANBAJOA CLAY,Unknown,50000,Misamis Oriental,MANBAJOA CLAY,MisamisOriental_SoilMap,SOIL,316.0,0,0,KODA_Datasets - Misamis Oriental Soil Data.csv
+FARAON CLAY,Unknown,50000,Misamis Oriental,FARAON CLAY,MisamisOriental_SoilMap,SOIL,132.0,0,0,KODA_Datasets - Misamis Oriental Soil Data.csv
+UMINGAN LOAM,Unknown,50000,Misamis Oriental,UMINGAN LOAM,MisamisOriental_SoilMap,SOIL,322.0,0,0,KODA_Datasets - Misamis Oriental Soil Data.csv
+HYDROSOL,Unknown,0,Misamis Oriental,HYDROSOL,,,1.0,0,0,KODA_Datasets - Misamis Oriental Soil Data.csv
+KABATOHAN LOAM,,250000,Surigao Del Norte,KABATOHAN LOAM,SuriagoDelNorte_Soil_250thsnd_1,SOIL,1002.0,0,0,KODA_Datasets - Surigao Del Norte Soil Data.csv
+DINAGAT CLAY LOAM,,250000,Surigao Del Norte,DINAGAT CLAY LOAM,SuriagoDelNorte_Soil_250thsnd_1,SOIL,1020.0,0,0,KODA_Datasets - Surigao Del Norte Soil Data.csv
+BOLINAO CLAY STEEP PHASE,,250000,Surigao Del Norte,BOLINAO CLAY STEEP PHASE,SuriagoDelNorte_Soil_250thsnd_1,SOIL,154.0,0,0,KODA_Datasets - Surigao Del Norte Soil Data.csv
+BOLINAO CLAY,,250000,Surigao Del Norte,BOLINAO CLAY,SuriagoDelNorte_Soil_250thsnd_1,SOIL,153.0,0,0,KODA_Datasets - Surigao Del Norte Soil Data.csv
+,,250000,Surigao Del Norte,,SuriagoDelNorte_Soil_250thsnd_1,SOIL,,0,0,KODA_Datasets - Surigao Del Norte Soil Data.csv
+SISON CLAY LOAM,,250000,Surigao Del Norte,SISON CLAY LOAM,SuriagoDelNorte_Soil_250thsnd_1,SOIL,1008.0,0,0,KODA_Datasets - Surigao Del Norte Soil Data.csv
+ROCK LAND,,250000,Surigao Del Norte,ROCK LAND,SuriagoDelNorte_Soil_250thsnd_1,SOIL,599.0,0,0,KODA_Datasets - Surigao Del Norte Soil Data.csv
+MALIMONO CLAY LOAM,,250000,Surigao Del Norte,MALIMONO CLAY LOAM,SuriagoDelNorte_Soil_250thsnd_1,SOIL,1009.0,0,0,KODA_Datasets - Surigao Del Norte Soil Data.csv
+MOUNTAIN SOILS,,250000,Surigao Del Norte,MOUNTAIN SOILS,SuriagoDelNorte_Soil_250thsnd_1,SOIL,45.0,0,0,KODA_Datasets - Surigao Del Norte Soil Data.csv
+JAMOYAON CLAY LOAM,,250000,Surigao Del Norte,JAMOYAON CLAY LOAM,SuriagoDelNorte_Soil_250thsnd_1,SOIL,1011.0,0,0,KODA_Datasets - Surigao Del Norte Soil Data.csv
+MALALAG SILT LOAM,,250000,Surigao Del Norte,MALALAG SILT LOAM,SuriagoDelNorte_Soil_250thsnd_1,SOIL,359.0,0,0,KODA_Datasets - Surigao Del Norte Soil Data.csv
+SAN MANUEL SANDY CLAY LOAM,,250000,Surigao Del Norte,SAN MANUEL SANDY CLAY LOAM,SuriagoDelNorte_Soil_250thsnd_1,SOIL,596.0,0,0,KODA_Datasets - Surigao Del Norte Soil Data.csv
+KITCHAROA CLAY LOAM,,250000,Surigao Del Norte,KITCHAROA CLAY LOAM,SuriagoDelNorte_Soil_250thsnd_1,SOIL,365.0,0,0,KODA_Datasets - Surigao Del Norte Soil Data.csv
+ANAO-OAN SILTY CLAY,,250000,Surigao Del Norte,ANAO-OAN SILTY CLAY,SuriagoDelNorte_Soil_250thsnd_1,SOIL,1012.0,0,0,KODA_Datasets - Surigao Del Norte Soil Data.csv
+SURIGAO CLAY LOAM,,250000,Surigao Del Norte,SURIGAO CLAY LOAM,SuriagoDelNorte_Soil_250thsnd_1,SOIL,1010.0,0,0,KODA_Datasets - Surigao Del Norte Soil Data.csv
+BAD-AS CLAY LOAM,,250000,Surigao Del Norte,BAD-AS CLAY LOAM,SuriagoDelNorte_Soil_250thsnd_1,SOIL,1019.0,0,0,KODA_Datasets - Surigao Del Norte Soil Data.csv
+HYDROSOL,,250000,Surigao Del Norte,HYDROSOL,SuriagoDelNorte_Soil_250thsnd_1,SOIL,1.0,0,0,KODA_Datasets - Surigao Del Norte Soil Data.csv
+NASA-AN CLAY LOAM,,250000,Surigao Del Norte,NASA-AN CLAY LOAM,SuriagoDelNorte_Soil_250thsnd_1,SOIL,318.0,0,0,KODA_Datasets - Surigao Del Norte Soil Data.csv
+SAPA CLAY LOAM,,250000,Surigao Del Norte,SAPA CLAY LOAM,SuriagoDelNorte_Soil_250thsnd_1,SOIL,1013.0,0,0,KODA_Datasets - Surigao Del Norte Soil Data.csv
+BOLINAO CLAY LOAM,1968,250000,Surigao Del Sur,BOLINAO CLAY LOAM,Surigao_DelSur_Soil_250thsnd_1,SOIL,108.0,0,0,KODA_Datasets - Surigao Del Sur Soil Data.csv
+SAN MANUEL LOAM,1968,250000,Surigao Del Sur,SAN MANUEL LOAM,Surigao_DelSur_Soil_250thsnd_1,SOIL,190.0,0,0,KODA_Datasets - Surigao Del Sur Soil Data.csv
+,1968,250000,Surigao Del Sur,,Surigao_DelSur_Soil_250thsnd_1,SOIL,853.0,0,0,KODA_Datasets - Surigao Del Sur Soil Data.csv
+HYDROSOL,1968,250000,Surigao Del Sur,HYDROSOL,Surigao_DelSur_Soil_250thsnd_1,SOIL,1.0,0,0,KODA_Datasets - Surigao Del Sur Soil Data.csv
+,1968,250000,Surigao Del Sur,,Surigao_DelSur_Soil_250thsnd_1,SOIL,1094.0,0,0,KODA_Datasets - Surigao Del Sur Soil Data.csv
+,1968,250000,Surigao Del Sur,,Surigao_DelSur_Soil_250thsnd_1,SOIL,1002.0,0,0,KODA_Datasets - Surigao Del Sur Soil Data.csv
+MOUNTAIN SOILS,1968,250000,Surigao Del Sur,MOUNTAIN SOILS,Surigao_DelSur_Soil_250thsnd_1,SOIL,45.0,0,0,KODA_Datasets - Surigao Del Sur Soil Data.csv
+BEACH SAND,1968,250000,Surigao Del Sur,BEACH SAND,Surigao_DelSur_Soil_250thsnd_1,SOIL,118.0,0,0,KODA_Datasets - Surigao Del Sur Soil Data.csv
+QUINQUD CLAY LOAM,1968,250000,Surigao Del Sur,QUINQUD CLAY LOAM,Surigao_DelSur_Soil_250thsnd_1,SOIL,109.0,0,0,KODA_Datasets - Surigao Del Sur Soil Data.csv
+,1968,250000,Surigao Del Sur,,Surigao_DelSur_Soil_250thsnd_1,SOIL,1003.0,0,0,KODA_Datasets - Surigao Del Sur Soil Data.csv
+BANTOG CLAY,1968,250000,Surigao Del Sur,BANTOG CLAY,Surigao_DelSur_Soil_250thsnd_1,SOIL,228.0,0,0,KODA_Datasets - Surigao Del Sur Soil Data.csv
+CAMANSA CLAY LOAM,1968,250000,Surigao Del Sur,CAMANSA CLAY LOAM,Surigao_DelSur_Soil_250thsnd_1,SOIL,575.0,0,0,KODA_Datasets - Surigao Del Sur Soil Data.csv
+BOLINAO CLAY,1969,250000,Zamboanga Del Norte,BOLINAO CLAY,ZamboangaDelNorte_SoilMap,SOIL,153.0,0,0,KODA_Datasets - Zamboanga Del Norte Soil Data.csv
+SAN MANUEL SILT LOAM,1969,250000,Zamboanga Del Norte,SAN MANUEL SILT LOAM,ZamboangaDelNorte_SoilMap,SOIL,82.0,0,0,KODA_Datasets - Zamboanga Del Norte Soil Data.csv
+HYDROSOL,1969,250000,Zamboanga Del Norte,HYDROSOL,ZamboangaDelNorte_SoilMap,SOIL,1.0,0,0,KODA_Datasets - Zamboanga Del Norte Soil Data.csv
+PANABOTAN SANDY LOAM,1969,250000,Zamboanga Del Norte,PANABOTAN SANDY LOAM,ZamboangaDelNorte_SoilMap,SOIL,1015.0,0,0,KODA_Datasets - Zamboanga Del Norte Soil Data.csv
+S. MANUEL CLAY LOAM,1969,250000,Zamboanga Del Norte,S. MANUEL CLAY LOAM,ZamboangaDelNorte_SoilMap,SOIL,236.0,0,0,KODA_Datasets - Zamboanga Del Norte Soil Data.csv
+MOUNTAIN SOILS,1969,250000,Zamboanga Del Norte,MOUNTAIN SOILS,ZamboangaDelNorte_SoilMap,SOIL,45.0,0,0,KODA_Datasets - Zamboanga Del Norte Soil Data.csv
+LUISIANA CLAY,1969,250000,Zamboanga Del Norte,LUISIANA CLAY,ZamboangaDelNorte_SoilMap,SOIL,239.0,0,0,KODA_Datasets - Zamboanga Del Norte Soil Data.csv
+NOVALICHES CLAY LOAM,1969,250000,Zamboanga Del Norte,NOVALICHES CLAY LOAM,ZamboangaDelNorte_SoilMap,SOIL,12.0,0,0,KODA_Datasets - Zamboanga Del Norte Soil Data.csv
+LUISIANA-JASOAN COMPLEX,1969,250000,Zamboanga Del Norte,LUISIANA-JASOAN COMPLEX,ZamboangaDelNorte_SoilMap,SOIL,1018.0,0,0,KODA_Datasets - Zamboanga Del Norte Soil Data.csv
+LA COSTELLANA-JASOAN LUISIANA COMPLEX,1969,250000,Zamboanga Del Norte,LA COSTELLANA-JASOAN LUISIANA COMPLEX,ZamboangaDelNorte_SoilMap,SOIL,1017.0,0,0,KODA_Datasets - Zamboanga Del Norte Soil Data.csv
+ADTUYAN LOAM,1969,250000,Zamboanga Del Norte,ADTUYAN LOAM,ZamboangaDelNorte_SoilMap,SOIL,523.0,0,0,KODA_Datasets - Zamboanga Del Norte Soil Data.csv
+ADTUYAN CLAY LOAM,1969,250000,Zamboanga Del Norte,ADTUYAN CLAY LOAM,ZamboangaDelNorte_SoilMap,SOIL,573.0,0,0,KODA_Datasets - Zamboanga Del Norte Soil Data.csv
+CASTILLA CLAY LOAM,1969,250000,Zamboanga Del Norte,CASTILLA CLAY LOAM,ZamboangaDelNorte_SoilMap,SOIL,244.0,0,0,KODA_Datasets - Zamboanga Del Norte Soil Data.csv
+ADUTYON CLAY,1969,250000,Zamboanga Del Norte,ADUTYON CLAY,ZamboangaDelNorte_SoilMap,SOIL,323.0,0,0,KODA_Datasets - Zamboanga Del Norte Soil Data.csv
+ROCK LAND,1969,250000,Zamboanga Del Norte,ROCK LAND,ZamboangaDelNorte_SoilMap,SOIL,599.0,0,0,KODA_Datasets - Zamboanga Del Norte Soil Data.csv
+DOHINOB CLAY,1969,250000,Zamboanga Del Norte,DOHINOB CLAY,ZamboangaDelNorte_SoilMap,SOIL,727.0,0,0,KODA_Datasets - Zamboanga Del Norte Soil Data.csv
+MANDAW CLAY LOAM,1969,250000,Zamboanga Del Norte,MANDAW CLAY LOAM,ZamboangaDelNorte_SoilMap,SOIL,157.0,0,0,KODA_Datasets - Zamboanga Del Norte Soil Data.csv
+ISABELA CLAY,1969,250000,Zamboanga Del Norte,ISABELA CLAY,ZamboangaDelNorte_SoilMap,SOIL,256.0,0,0,KODA_Datasets - Zamboanga Del Norte Soil Data.csv
+SILAY LOAMY SAND,1969,250000,Zamboanga Del Norte,SILAY LOAMY SAND,ZamboangaDelNorte_SoilMap,SOIL,1072.0,0,0,KODA_Datasets - Zamboanga Del Norte Soil Data.csv
+LAWIGAN LOAMY SAND,1969,250000,Zamboanga Del Norte,LAWIGAN LOAMY SAND,ZamboangaDelNorte_SoilMap,SOIL,1014.0,0,0,KODA_Datasets - Zamboanga Del Norte Soil Data.csv
+MIRAL SANDY LOAM,1969,250000,Zamboanga Del Norte,MIRAL SANDY LOAM,ZamboangaDelNorte_SoilMap,SOIL,1073.0,0,0,KODA_Datasets - Zamboanga Del Norte Soil Data.csv
+QUINQUD CLAY LOAM,1969,250000,Zamboanga Del Norte,QUINQUD CLAY LOAM,ZamboangaDelNorte_SoilMap,SOIL,109.0,0,0,KODA_Datasets - Zamboanga Del Norte Soil Data.csv
+LIMESTONE ROCK LAND,1969,250000,Zamboanga Del Norte,LIMESTONE ROCK LAND,ZamboangaDelNorte_SoilMap,SOIL,581.0,0,0,KODA_Datasets - Zamboanga Del Norte Soil Data.csv
+PAETE LOAM,1969,250000,Zamboanga Del Norte,PAETE LOAM,ZamboangaDelNorte_SoilMap,SOIL,1074.0,0,0,KODA_Datasets - Zamboanga Del Norte Soil Data.csv
+BOLINCO-PAONANCO DOHINOB COMPLEX,1969,250000,Zamboanga Del Norte,BOLINCO-PAONANCO DOHINOB COMPLEX,ZamboangaDelNorte_SoilMap,SOIL,1016.0,0,0,KODA_Datasets - Zamboanga Del Norte Soil Data.csv
+FARAON SANDY LOAM,1969,250000,Zamboanga Del Norte,FARAON SANDY LOAM,ZamboangaDelNorte_SoilMap,SOIL,258.0,0,0,KODA_Datasets - Zamboanga Del Norte Soil Data.csv
+MALIGAYA CLAY LOAM,1969,250000,Zamboanga Del Norte,MALIGAYA CLAY LOAM,ZamboangaDelNorte_SoilMap,SOIL,117.0,0,0,KODA_Datasets - Zamboanga Del Norte Soil Data.csv
+BEACH SAND,1969,250000,Zamboanga Del Norte,BEACH SAND,ZamboangaDelNorte_SoilMap,SOIL,118.0,0,0,KODA_Datasets - Zamboanga Del Norte Soil Data.csv
